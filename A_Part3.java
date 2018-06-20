@@ -20,5 +20,7 @@ public class A_Part3 {
 		
 		arr1[arr1.length-1] = arr[0] + arr[1] - arr[2];
 		System.out.println(Arrays.toString(arr1));
+		
+		//我在这里写了点东西，为了测试更新
 	}
 }
