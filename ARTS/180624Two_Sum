@@ -1,4 +1,9 @@
 Algorithm:
+// I am a new learner. Currently I am reading <疯狂Java讲义> to make up my fundamental knowledge.
+// Actually even this problem is a little challenge to me... 
+// And I also read some solutions shared by others and tried to undertand them, 
+// But it seemded that some methods are beyond my current knowledge... I need further learning, Sir.
+
 class Solution{
 public int[] twoSum(int[] nums, int target) {
     int[] result = new int[2];
@@ -39,7 +44,7 @@ So, if we want get 80 included, we should add 1 follow (maximum - minimum).
 
 
 Share:
-Now, I have made a plan for the <疯狂Java讲义>reading and learning. 
+Currently I have made a plan for the <疯狂Java讲义> reading and learning. 
 'Two_Sum' is the first algoritm I wrote formally in the website,
 Compare with only going through the textbook, it is really important to think about more high-level problems to horn our basic knowledge.
 Pondering a difficult problem will force me to digest basic knowledge more quickly and, at the same time, 
