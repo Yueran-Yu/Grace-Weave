@@ -1,0 +1,47 @@
+Algorithm:
+class Solution{
+public int[] twoSum(int[] nums, int target) {
+    int[] result = new int[2];
+     
+     for(int i = 0; i < nums.length-1; i++){
+        for(int j = i + 1; j<nums.length; j++){
+            if(nums[i] + nums[j] == target){
+            result[0] - i;
+            result[1] = j;
+            break;
+            }
+        }
+     }
+     return result;
+   }
+}
+
+Review:
+I have read <Teach Yourself Programming in Ten Years>.
+I am completely agree with the idea that we should spend a long time patiently studying programming. 
+Because fundmental knowledge will decide how far we will go. 
+Though sometimes, I feel very anxious and panic about so many loads of technological books I should read,
+But I finally convince myself again and again, step by step, more haste, less speed.
+Even if you have a little progress every day, it would be better than nothing.
+
+
+
+Tips:
+I have read a page about how to generate random numbers within specific range
+int random = minimum + (int)((Math.random() * ((maximum - minimum) + 1));
+For example, if you want to get a random number from 40(include) to 80(include);
+so it is:
+int random  =40 + (int)((Math.random() * ((80-40) + 1));
+why we should add 1 behind(maximum - minimum)?
+Because Math.random() generates a double value int the range [0,1)，it means this range doesn't include the 1.
+So, if we want get 80 included, we should add 1 follow (maximum - minimum).
+
+
+
+Share:
+Now, I have made a plan for the <疯狂Java讲义>reading and learning. 
+'Two_Sum' is the first algoritm I wrote formally in the website,
+Compare with only going through the textbook, it is really important to think about more high-level problems to horn our basic knowledge.
+Pondering a difficult problem will force me to digest basic knowledge more quickly and, at the same time, 
+realise my huge gap that I should fill in.
+
