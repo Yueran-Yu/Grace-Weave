@@ -1,5 +1,6 @@
 
-###01 Algorithm
+#Algorithm
+************************
 >**Reverse_Integer**
 ```java
 package leetCode;
@@ -47,7 +48,8 @@ public class Reverse_Integer {
 }
 ```
 
-###02 Review
+#Review
+***********************
 **Reading Digest：**
 >01 "A little learning is a dangerous thing."
 
@@ -65,7 +67,8 @@ public class Reverse_Integer {
 
 
 
-###03 Tip
+#Tip
+*********************
 * **A little personal thought**
 * >This is my day managed to learn how to use 'Markdown'. I have browsed several web pages to find how to use Markdown, but almost no article showed the complete process to follow. So I changed to search the video, and then I found What I want. Yesterday, I finally joined the slack successfully, I really don't know what to do without others' help. But I eventually figured out this problem by myself, the difference is I spent a little more time to join in it. If someone teach me how to do, I will quickly enter and save some time.
 
@@ -102,7 +105,8 @@ for(Integer v : map.values()){
 }
 ```
 
-###04 Share
+#Share
+**********************************
 * **New Concept English 3 Learning - Lesson 01**
 * 01 on the spot 到现场
 >例句：Twenty miniutes after calling the emergency ambulance，medical care workers arrived <u>on the spot</u>.
