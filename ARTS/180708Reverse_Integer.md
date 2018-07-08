@@ -1,5 +1,5 @@
 #Algorithm
-************************
+************
 >**Reverse_Integer**
 ```java
 package leetCode;
@@ -46,9 +46,8 @@ public class Reverse_Integer {
 	}
 }
 ```
-
 #Review
-***********************
+**********
 **Reading Digest：**
 >01 "A little learning is a dangerous thing."
 
@@ -64,12 +63,10 @@ public class Reverse_Integer {
 
 >07 "Book learning alone won't enough."
 
-
-
 #Tip
-*********************
-* **A little personal thought**
-* >This is my day managed to learn how to use 'Markdown'. I have browsed several web pages to find how to use Markdown, but almost no article showed the complete process to follow. So I changed to search the video, and then I found What I want. Yesterday, I finally joined the slack successfully, I really don't know what to do without others' help. But I eventually figured out this problem by myself, the difference is I spent a little more time to join in it. If someone teach me how to do, I will quickly enter and save some time.
+**********
+**A little personal thought**
+>This is my day managed to learn how to use 'Markdown'. I have browsed several web pages to find how to use Markdown, but almost no article showed the complete process to follow. So I changed to search the video, and then I found What I want. Yesterday, I finally joined the slack successfully, I really don't know what to do without others' help. But I eventually figured out this problem by myself, the difference is I spent a little more time to join in it. If someone teach me how to do, I will quickly enter and save some time.
 
 * **Tip: how to use hashMap to traverse（4 ways）**
 ```java
@@ -105,10 +102,9 @@ for(Integer v : map.values()){
 ```
 
 #Share
-**********************************
-* **New Concept English 3 Learning - Lesson 01**
+***************
 * 01 on the spot 到现场
->例句：Twenty miniutes after calling the emergency ambulance，medical care workers arrived <u>on the spot</u>.
+>例句1：Twenty miniutes after calling the emergency ambulance，medical care workers arrived <u>on the spot</u>.
 
 * 02 go to court 上法庭，
      go to hosptial 去看病（表示功能时，不加the）
@@ -124,17 +120,3 @@ for(Integer v : map.values()){
 * 05 prove(to be) + ajd./n.  被证明是... 此处，prove为系动词
 >例句1：His injury proved (to be) fatal.
  例句2：The operation proved (to be)a success.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
