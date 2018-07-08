@@ -1,0 +1,49 @@
+···java
+package leetCode;
+
+import java.util.Scanner;
+
+public class Reverse_Integer {
+
+	public static void main(String[] args) {
+		Reverse_Integer test = new Reverse_Integer();
+
+		System.out.println(test.reverse(1534236469));
+
+	}
+
+	public int reverse(int x) {
+		int result = 0;
+		String s = String.valueOf(x);
+		String[] arr = s.split("");
+
+		StringBuilder sb = new StringBuilder();
+
+		if (x > Integer.MAX_VALUE || x < Integer.MIN_VALUE) {
+			result = 0;
+		}
+
+		try {
+			if (arr[0].equals("-")) {
+				sb.append(arr[0]);
+				for (int i = arr.length - 1; i >= 1; i--) {
+					sb.append(arr[i]);
+					result = Integer.parseInt(sb.toString());
+
+				}
+
+			} else {
+				for (int i = arr.length - 1; i >= 0; i--) {
+					sb.append(arr[i]);
+					result = Integer.parseInt(sb.toString());
+				}
+			}
+
+		} catch (NumberFormatException ignored) {
+			result = 0;
+		}
+
+		return result;
+	}
+}
+···
