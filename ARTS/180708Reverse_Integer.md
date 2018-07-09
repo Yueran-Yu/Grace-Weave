@@ -1,4 +1,4 @@
-#Algorithm
+# Algorithm
 ************
 >**Reverse_Integer**
 ```java
@@ -46,7 +46,7 @@ public class Reverse_Integer {
 	}
 }
 ```
-#Review
+# Review
 **********
 **Reading Digest：**
 >01 "A little learning is a dangerous thing."
@@ -63,7 +63,7 @@ public class Reverse_Integer {
 
 >07 "Book learning alone won't enough."
 
-#Tip
+# Tip
 **********
 **A little personal thought**
 >This is my day managed to learn how to use 'Markdown'. I have browsed several web pages to find how to use Markdown, but almost no article showed the complete process to follow. So I changed to search the video, and then I found What I want. Yesterday, I finally joined the slack successfully, I really don't know what to do without others' help. But I eventually figured out this problem by myself, the difference is I spent a little more time to join in it. If someone teach me how to do, I will quickly enter and save some time.
@@ -101,7 +101,7 @@ for(Integer v : map.values()){
 }
 ```
 
-#Share
+# Share
 ***************
 * 01 on the spot 到现场
 >例句1：Twenty miniutes after calling the emergency ambulance，medical care workers arrived <u>on the spot</u>.
