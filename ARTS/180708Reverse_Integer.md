@@ -104,16 +104,16 @@ for(Integer v : map.values()){
 # Share
 ***************
 * 01 on the spot 到现场
->例句1：Twenty miniutes after calling the emergency ambulance，medical care workers arrived <u>on the spot</u>.
+>例句1：Twenty miniutes after calling the emergency ambulance，medical care workers arrived on the spot.
 
 * 02 go to court 上法庭，
-     go to hosptial 去看病（表示功能时，不加the）
+     go to hosptial 去看病 (表示功能时，不加the)
 	 settle sth. out of court (庭外)私了
 	> 
 * 03 be/feel compelled to do不得不做(来自外界的压力)
      be/feel impelled to do(来自内内心的良知驱动)
 >例句1：President Nixon felt compelled to resign.
->例句2：He felt impelled to investigate further.
+例句2：He felt impelled to investigate further.
 * 04 claim to have done... 动词不定式+完成时：强调该事情已经发生过了
 >例句1：I'm sorry to have kept you waiting.
  例句2：For the description given by people who claimed to have seen the puma were extraordinary similar.
