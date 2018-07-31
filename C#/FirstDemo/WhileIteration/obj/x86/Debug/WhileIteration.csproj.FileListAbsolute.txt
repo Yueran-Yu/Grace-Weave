@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/WhileIteration/bin/Debug/WhileIteration.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/WhileIteration/bin/Debug/WhileIteration.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/WhileIteration/obj/x86/Debug/WhileIteration.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/WhileIteration/obj/x86/Debug/WhileIteration.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/WhileIteration/obj/x86/Debug/WhileIteration.pdb

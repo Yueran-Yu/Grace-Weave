@@ -1,0 +1,6 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/SecondProject/bin/Debug/SecondProject.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/SecondProject/bin/Debug/SecondProject.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/SecondProject/obj/x86/Debug/SecondProject.csprojResolveAssemblyReference.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/SecondProject/obj/x86/Debug/SecondProject.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/SecondProject/obj/x86/Debug/SecondProject.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/SecondProject/obj/x86/Debug/SecondProject.pdb

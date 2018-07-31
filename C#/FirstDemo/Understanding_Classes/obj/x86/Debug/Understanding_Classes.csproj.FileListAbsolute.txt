@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Understanding_Classes/bin/Debug/Understanding_Classes.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Understanding_Classes/bin/Debug/Understanding_Classes.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Understanding_Classes/obj/x86/Debug/Understanding_Classes.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Understanding_Classes/obj/x86/Debug/Understanding_Classes.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Understanding_Classes/obj/x86/Debug/Understanding_Classes.pdb

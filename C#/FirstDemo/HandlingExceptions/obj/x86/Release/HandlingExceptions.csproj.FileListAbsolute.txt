@@ -1,0 +1,3 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/HandlingExceptions/bin/Release/HandlingExceptions.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/HandlingExceptions/obj/x86/Release/HandlingExceptions.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/HandlingExceptions/obj/x86/Release/HandlingExceptions.exe

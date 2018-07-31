@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Collection/bin/Debug/Collection.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Collection/bin/Debug/Collection.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Collection/obj/x86/Debug/Collection.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Collection/obj/x86/Debug/Collection.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Collection/obj/x86/Debug/Collection.pdb

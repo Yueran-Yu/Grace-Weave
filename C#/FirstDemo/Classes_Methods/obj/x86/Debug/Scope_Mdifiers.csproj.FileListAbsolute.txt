@@ -1,0 +1,11 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/Classes_Methods.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/Classes_Methods.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/obj/x86/Debug/Scope_Mdifiers.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/obj/x86/Debug/Classes_Methods.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/obj/x86/Debug/Classes_Methods.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/Classes_Methods.exe.config
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/EntityFramework.dll
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/EntityFramework.SqlServer.dll
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/EntityFramework.xml
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/bin/Debug/EntityFramework.SqlServer.xml
+/Users/yuyueran/Documents/06_C#/FirstDemo/Classes_Methods/obj/x86/Debug/Scope_Mdifiers.csprojResolveAssemblyReference.cache

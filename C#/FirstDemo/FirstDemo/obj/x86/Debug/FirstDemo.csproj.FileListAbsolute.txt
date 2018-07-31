@@ -1,0 +1,6 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/FirstDemo/bin/Debug/FirstDemo.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/FirstDemo/bin/Debug/FirstDemo.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/FirstDemo/obj/x86/Debug/FirstDemo.csprojResolveAssemblyReference.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/FirstDemo/obj/x86/Debug/FirstDemo.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/FirstDemo/obj/x86/Debug/FirstDemo.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/FirstDemo/obj/x86/Debug/FirstDemo.pdb

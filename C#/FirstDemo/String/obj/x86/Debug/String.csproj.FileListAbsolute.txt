@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/String/bin/Debug/String.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/String/bin/Debug/String.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/String/obj/x86/Debug/String.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/String/obj/x86/Debug/String.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/String/obj/x86/Debug/String.pdb

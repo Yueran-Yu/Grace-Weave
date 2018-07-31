@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Enum_switch/obj/x86/Debug/Enum_switch.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Enum_switch/bin/Debug/Enum_switch.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Enum_switch/bin/Debug/Enum_switch.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Enum_switch/obj/x86/Debug/Enum_switch.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Enum_switch/obj/x86/Debug/Enum_switch.pdb

@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/DatesAndTimes/bin/Debug/DatesAndTimes.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/DatesAndTimes/bin/Debug/DatesAndTimes.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/DatesAndTimes/obj/x86/Debug/DatesAndTimes.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/DatesAndTimes/obj/x86/Debug/DatesAndTimes.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/DatesAndTimes/obj/x86/Debug/DatesAndTimes.pdb

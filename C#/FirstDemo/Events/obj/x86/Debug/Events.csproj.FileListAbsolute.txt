@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Events/bin/Debug/Events.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Events/bin/Debug/Events.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Events/obj/x86/Debug/Events.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Events/obj/x86/Debug/Events.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Events/obj/x86/Debug/Events.pdb

@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Linq/bin/Debug/Linq.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Linq/bin/Debug/Linq.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Linq/obj/x86/Debug/Linq.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Linq/obj/x86/Debug/Linq.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Linq/obj/x86/Debug/Linq.pdb

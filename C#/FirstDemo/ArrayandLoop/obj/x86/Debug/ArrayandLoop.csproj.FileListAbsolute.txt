@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/ArrayandLoop/bin/Debug/ArrayandLoop.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/ArrayandLoop/bin/Debug/ArrayandLoop.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/ArrayandLoop/obj/x86/Debug/ArrayandLoop.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/ArrayandLoop/obj/x86/Debug/ArrayandLoop.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/ArrayandLoop/obj/x86/Debug/ArrayandLoop.pdb

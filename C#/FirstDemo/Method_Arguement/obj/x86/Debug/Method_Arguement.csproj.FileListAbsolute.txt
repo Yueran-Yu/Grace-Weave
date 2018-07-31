@@ -1,0 +1,5 @@
+/Users/yuyueran/Documents/06_C#/FirstDemo/Method_Arguement/bin/Debug/Method_Arguement.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Method_Arguement/bin/Debug/Method_Arguement.pdb
+/Users/yuyueran/Documents/06_C#/FirstDemo/Method_Arguement/obj/x86/Debug/Method_Arguement.csproj.CoreCompileInputs.cache
+/Users/yuyueran/Documents/06_C#/FirstDemo/Method_Arguement/obj/x86/Debug/Method_Arguement.exe
+/Users/yuyueran/Documents/06_C#/FirstDemo/Method_Arguement/obj/x86/Debug/Method_Arguement.pdb
