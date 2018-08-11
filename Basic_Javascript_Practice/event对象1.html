@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>event对象1</title>
+    <!--event: 保存事件发生时的相关信息-->
+    <!--当事件发生的时候:event-->
+    <!--event.clientX:事件发生时的X的坐标-->
+    <!--event.clientY:事件发生时的Y的坐标-->
+    <!--event.target:事件源-->
+    <!--event： 必须通过参数的形式床底给函数，才可以用-->
+    <script type="text/javascript">
+       function fn1(e) {
+         var obj = e.target;
+         alert(obj.value);
+       }
+
+    </script>
+</head>
+<body>
+<input type="button" id="d1" value="点击1" onclick="fn1(event)">
+<input type="button" id="d2" value="点击2" onclick="fn1(event)">
+<input type="button" id="d3" value="点击3" onclick="fn1(event)">
+
+</body>
+</html>

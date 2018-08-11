@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二维数组练习</title>
+    <script>
+        var arr =[
+           [24,26,28,29],
+           [23,25,28,22],
+           [24,26,27,28]
+        ];
+        var sum = 0;
+        for(var i=0;i<arr.length; i++){
+            for(var j = 0; j<arr[i].length; j++){
+                sum+= arr[i][j];
+            }
+        }
+        document.write("和为：" + sum);
+
+document.write("<br />");
+        var max = arr[0][0];
+        //保存index
+        var indexi;
+        var indexj;
+        for(var i=0;i<arr.length; i++){
+            for(var j = 0; j<arr[i].length; j++){
+                if(max <= arr[i][j]){
+                  max = arr[i][j];
+                  indexi = i;
+                  indexj = j;
+                }
+            }
+        }
+        document.write("最大值：" + max+"<br />" + "Index：" + indexj + ", "+ indexj+"<br/>");
+//parseInt:取整，如果字符串开头第一个就是字母那么就会出现NaN flaot类型同理
+      document.write(parseInt("24ab")+"<br/>");
+      document.write(parseInt("zb24")+"<br/>");
+      document.write(parseInt("24.24ad")+"<br/>");
+
+var n = isNaN("dh");
+document.write(n);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

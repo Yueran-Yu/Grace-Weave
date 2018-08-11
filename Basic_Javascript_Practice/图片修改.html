@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片修改</title>
+    <script>
+        function fn() {
+            var obj = document.getElementById("d1");
+            // obj.width = 300; //直接赋值
+            var w = obj.width; //获取img的宽度
+            obj.width = w*1.2; //将图片扩大1.2倍
+        }
+    </script>
+</head>
+<body>
+<img id = "d1" src="img/01.jpg" width="100" >
+<input type="button" value="点击变大" onclick="fn()">
+</body>
+</html>

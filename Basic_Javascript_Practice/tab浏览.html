@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tab浏览</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #d1{
+            border:1px solid rgba(11,155,153,0.66);
+            width: 490px;
+            height: 300px;
+
+        }
+
+        ul li {
+            list-style: none;
+            float: left;
+            width: 94px;
+            height: 50px;
+            border:2px dashed rgba(11,155,153,0.66);
+            text-align: center;
+            line-height: 50px;
+        }
+
+        ul{
+            height: 50px;
+        }
+
+        #div1,#div2,#div3,#div4{
+            display: none;
+        }
+
+        #div1{
+            display: block;
+            width:500px;
+        }
+
+    </style>
+
+    <script type="text/javascript">
+
+       function showDiv(n,m) {
+           //把所有的div内容都得隐藏
+           for(var i = 1; i <=4; i++){
+            document.getElementById("div" + i).style.display = "none";
+           }
+           //显示所有li标签的边框
+           for(var j = 1; j <=4; j++){
+               var allLi = document.getElementById("li"+ j);
+               allLi.style.border = "2px dashed rgba(11,155,153,0.66)";
+           }
+
+           //获取div对象
+           var obj = document.getElementById("div" + n);
+           obj.style.display = "block";
+           m.style.borderBottom = "1px solid white";
+       } 
+    </script>
+</head>
+<body>
+<div id = "d1">
+    <ul>
+        <li id = "li1" onmouseover="showDiv(1,this)">国际新闻</li>
+        <li id = "li2" onmouseover="showDiv(2,this)">国内新闻</li>
+        <li id = "li3" onmouseover="showDiv(3,this)">体育新闻</li>
+        <li id = "li4" onmouseover="showDiv(4,this)">娱乐新闻</li>
+        <li ></li>
+    </ul>
+    <div id = "div1">
+        国际新闻:<br />
+        奥巴马据说又踹门了<br />
+        xxx,xxx,xxx准备搞起来了
+    </div>
+    <div id = "div2">
+        国内新闻:<br />
+        某大大说：good good study， day day up。<br />
+        白日依山尽，黄河入海流。
+    </div>
+    <div id = "div3">
+        体育新闻:<br />
+        据说，姚明，科比，詹姆斯签约中国男篮CBA <br />
+        欲穷千里目，更上一层楼。
+    </div>
+    <div id = "div4">
+        娱乐新闻:<br />
+        某杰去美国了<br />
+        李晨这个大黑牛和范冰冰搞duixiang.
+    </div>
+</div>
+
+
+</body>
+</html>

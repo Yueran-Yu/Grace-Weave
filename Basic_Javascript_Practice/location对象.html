@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>location对象</title>
+    <script>
+        function  fn() {
+            var n = location.href; //url信息赋值给n
+            location.href = "http://www.baidu.com";
+            //location.href 返回url信息：可以获取url信息
+            //也可以给其赋值，实现跳转
+            // alert(n);
+
+            // location.assign("http://www.ifeng.com");
+            //assign()是  一个 方法
+
+
+            // location.reload();  //重新加载当前的文档【刷新】
+            location.replace("http://www.baidu.com");
+            //location.assign() 是会产生历史记录的东西
+            //location.replace() 不会产生历史记录
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="点击" onclick="fn()">
+</body>
+</html>

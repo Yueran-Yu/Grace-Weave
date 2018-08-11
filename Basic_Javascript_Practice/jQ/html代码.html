@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html代码</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div>
+    这是div
+    <p>这是段落</p>
+    <a href="">这是链接</a>
+</div>
+<input type="button" value="click">
+<script type="text/javascript">
+    $("input").click(function () {
+       // console.log($('div').html());
+       // $("div").html("<b>加粗</b>");  //html(代码）：设置html的内容：识别标签的
+       //  console.log($("div").text());
+       //  $("div").text("<b>这是新的东西。</b>");
+        //如果设置的时候有标签，这些标签都会被当做文本处理 【实际上就是把标签转成实体字符】
+        //注意： text() 不识别标签，html是识别标签的
+        // console.log($("input").val());  // 这个val()功能就相当于获取了 input对象的val属性
+       $("input").val("新的点击");//设置value值
+
+    });
+</script>
+</body>
+</html>

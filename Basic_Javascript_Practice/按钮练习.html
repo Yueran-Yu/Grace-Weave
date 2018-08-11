@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>按钮练习</title>
+    <script type="text/javascript">
+//  点击变  关  再点击 就开
+function fn() {
+    var obj=document.getElementById("d1");
+    if(obj.value== "Open"){
+        obj.value = "Close";
+    }else {
+        obj.value = "Open";
+    }
+}
+
+var i = 0;
+function fn1() {
+    // var i = 0; 放在这里就是局部变量，i++之后会重新编程0，所以不是要的结果
+    var obj = document.getElementById("d2");
+    while (i != 10) {
+      if (i % 2 == 0 && i < 10) {
+        obj.value = "Close";
+    } else {
+        obj.value = "Open";
+    }
+    i++;
+    alert(i);
+  }
+}
+
+
+        //定义一个变量，保存true或者false
+          var flag = true;
+        function fn2() {
+            var obj = document.getElementById("d3");
+            if(flag==true){
+                obj.value = "Close";
+                flag = false;
+            }else{
+                obj.value = "Open";
+                flag = true;
+            }
+        }
+
+        // function fn3(e) {
+        //      if(e.value == "Open"){
+        //          e.value = "Close";
+        //      }else{
+        //          e.value = "Open";
+        //      }
+        // }
+
+function fn4(obj) {
+            if(obj.value == "Open"){
+                obj.value = "Close";
+            }else{
+                obj.value = "Open";
+            }
+            // var m = parseInt(obj.value);
+            // obj.value = m+1;
+          }
+    </script>
+
+</head>
+<body>
+<input type="button" id="d1" value="Open" onclick="fn()">
+<input type="button" id="d2" value="Open" onclick="fn1()">
+<input type="button" id="d3" value="Open" onclick="fn2()">
+<input type="button" id="d4" value="Open" onclick="fn3(event)">
+<input type="button" id="d5" value="Open" onclick="fn4(this)">
+<input type="button" id="d6" value="Open" onclick="fn4(this)">
+
+
+
+<!--<input type="checkbox" value="Choose">-->
+<!--<input type="file" value="File" >-->
+</body>
+</html>

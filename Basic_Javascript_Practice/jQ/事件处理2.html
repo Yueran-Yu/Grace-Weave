@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件处理2</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+<input type="button" value="click" id="d1">
+<input type="button" value="解绑" id="d2">
+<input type="button" value="one绑定" id="d3">
+
+<script type="text/javascript">
+    $("#d1").on("click",function () {
+        alert("这是on.");
+    });
+    $("#d2").click(function () {
+        $("#d1").off();
+        alert("这是off.");
+    });
+    $("#d3").one("click",function () {
+        alert("这是one.");
+    });
+</script>
+</body>
+</html>

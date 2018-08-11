@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>当当header练习</title>
+    <style>
+        #wv{
+            width: 500px;
+            height:313px;
+            position:fixed;
+            top:329px;
+            right:46px;
+        }
+
+        #wv a{
+            position: absolute;
+            top: 0px;
+            right:0px;
+            color: antiquewhite;
+            border: 1px solid black;
+            background: grey;
+            width: 40px;
+            text-align: center;
+
+
+        }
+
+    </style>
+
+    <script>
+        function showDD() {
+            var obj = document.getElementById("dd_menu_top_down");
+            obj.style.display = "block";
+        }
+        function hideDD() {
+            var obj = document.getElementById("dd_menu_top_down");
+            obj.style.display = "none";
+        }
+
+        function closeTag() {
+            var obj = document.getElementById("wv");
+            obj.style.display= "none";
+        }
+    </script>
+</head>
+<body>
+<div id = "wv" >
+    <img src = "img/07.jpg">
+    <a href="#" onclick="closeTag()">关闭</a>
+</div>
+<li onmouseover="showDD()" onmouseout="hideDD()"><a href="#" target="_self">我的当当</a><img src = "img/06.jpg" alt = "arrow" />
+<div id="dd_menu_top_down">
+    <a href = "#" target="_self">我的订单</a><br />
+    <a href = "#" target="_self">账户余额</a><br />
+    <a href = "#" target="_self">购物礼券</a><br />
+    <a href = "#" target="_self">我的会员积分</a><br/>
+</div>
+</li>
+</body>
+</html>

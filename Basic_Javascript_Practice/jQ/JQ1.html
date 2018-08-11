@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQ1.html</title>
+    <style type="text/css"> </style>
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <!--从外面引入 jQuery 代码-->
+</head>
+<body>
+<div>
+    adcv
+</div>
+<input type="button" value="点击" id="btn">  <!--onclick="fn()"-->
+<script>
+    // function fn() {
+    //     var obj = document.getElementById("btn");
+    //     obj.style.background = "red";
+    // }
+
+    // $("#btn").click(function(){
+    //     $("#btn").css({background:"blue"});
+    // }); //相当于用 id="#btn" 整个input按钮去调用 click 的函数
+        //也就是取代了onclick=fn()的这个功能
+
+    $("#btn").click(function(){
+        //直接将 div 这个标签写到括号里: 标签选择器
+        alert($("div").html());
+    });
+</script>
+</body>
+</html>

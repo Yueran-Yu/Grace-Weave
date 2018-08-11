@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<img src="img/03.jwpg">
+<img src="img/04.jpg">
+<img src="img/05b.jpg">
+<img src="ie/06.jpg">
+<input type="button" value="click">
+<script type="text/javascript">
+$("input").click(function (){
+    // $("img[src]").css({background:"red"}); //属性选择为attribute
+    // $("img[src='img/03.jpg']").css({background:"blue"}); //查找属性为value的元素
+    // $("img[src!='img/03.jpg']").css({background:"blue"});//查找属性不为value的元素
+    // $("img[src^='img']").css({background:"blue"}); //查找以value为开头的元素
+    // $("img[src$='jpg']").css({background:"blue"}); //查找以value为结尾的属性
+    $("img[src *='m']").css({background:"blue"}); // 查找包含value的属性
+});
+</script>
+</body>
+</html>

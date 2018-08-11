@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>批量打印乘法表</title>
+    <script>
+        function caculation(n, m){
+            for(var k = 1; k <= n; k++){
+                document.write("<table border = '2'>");
+                for(var i = 1; i <=m; i++){
+                    document.write("<tr>");
+                    for(var j = 1; j < i; j++){
+                        document.write("<td>");
+                   document.write(i + " * " + j + " = " + j*i);
+                        document.write("</td>");
+                    }
+                    document.write("</tr>");
+                }
+                document.write("</table>");
+            }
+        }
+        caculation(3,5);
+        caculation(4,7);
+        caculation(2,10);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

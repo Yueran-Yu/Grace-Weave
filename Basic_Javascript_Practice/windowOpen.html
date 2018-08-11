@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WindowOpen</title>
+    <script type="text/javascript">
+//window.open("链接"，"name","设置）；
+//width: 设置窗口宽度
+//height：设置窗口的高度
+//left:新窗口到左端举例
+//top: 新窗口到顶部距离
+//scrollbars: 滚动条【yes no， 1.0】
+//toolbar 工具栏
+//location地址栏
+        window.onload = init;
+        function init() {
+            window.open("http://www.baidu.com",
+                "Test",
+                "width=600,height=300,left=200,top=100,scrollbars=yes,toolbar = yes");
+        }
+        function fn() {
+            window.close();
+        }
+    </script>
+</head>
+<body>
+Test
+<input type="button" value="点击关闭窗口" onclick="fn()">
+</body>
+</html>

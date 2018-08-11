@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片切换案例1</title>
+    <style type="text/css">
+    div{
+    border: 1px solid green;
+        width: 560px;
+        height: 313px
+       }
+
+        div ul{
+            float: right;
+            padding-left: 10px;
+        }
+
+        div li{
+            list-style: none;
+            border: 1px solid grey;
+            width: 30px;
+            height:24px;
+            margin-top: 17px;
+            margin-right: 15px;
+            text-align: center;
+            line-height: 22px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        //定时器:
+        //var x = window.setTimeout("function()", 执行一次函数:秒数);
+        //var x = window.setInterval("function()", 执行一次的时间：秒数）;
+        //var x = window.clearTimeout(定时器名)：清除一次性定时器
+        //var x = window.clearInterval(定时器名）：清除间隔定时器
+        //window.open
+        //window.close;
+
+        //1.反复性定时器
+        //2.页面加载完成之后才去切换图片， onload事件
+        //3.鼠标放到图片上图片停止，鼠标离开图片就会自动切换
+        //4.鼠标放到列表上，图片停止到对应的图片，背景颜色要变换
+        //5.鼠标离开列表，图片自动切换，背景颜色
+
+        window.onload = init;
+        var counter; // 注意作用域问题
+        function init(){
+            var obj = document.getElementById("li1");//初始化第一张图片的颜色
+            obj.style.background = "grey";
+           counter= window.setInterval("picture()", 1000);
+        }
+
+        var i = 1;
+        function picture() { //让图片切换的函数
+            i++;
+            if(i > 6){
+                i=1;
+            }
+            var obj = document.getElementById("d1");//获取img对象
+            obj.src = "img/0"+ i + ".jpg"; //修改img对象的src属性
+
+            //先将li标签的背景颜色统一设置成白色
+            clearBC();
+            var color = document.getElementById("li" + i);//修改li标签的背景颜色
+            color.style.background = "grey";
+        }
+
+        function ceaseScroll() { //功能：鼠标放到图片上停止图片自动切换的函数
+            window.clearInterval(counter);
+        }
+
+        function keeping() { //功能：鼠标离开图片后 继续滚动图片 注意：匿名定时器无法被清除
+            counter = window.setInterval("picture()", 1000);
+        }
+
+        function stopPic(n,m) {
+            i=n;
+            var obj = document.getElementById("d1");
+            obj.src = "img/0" + n + ".jpg";
+             //将所有li标签的背景颜色变成白色
+            clearBC();
+            window.clearInterval(counter);
+            m.style.background = "lightgrey";
+        }
+
+        //清除所有标签的背景颜色
+        function clearBC() {
+            for(var j = 1; j <=6; j++){
+                var obj = document.getElementById("li" + j);
+                obj.style.background = "white";
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div>
+<img src="img/01.jpg" id="d1" onmouseover="ceaseScroll()" onmouseout="keeping()">
+<ul>
+    <li id = "li1" onmouseover="stopPic(1,this)" onmouseout="keeping()">1</li>
+    <li id = "li2" onmouseover="stopPic(2,this)" onmouseout="keeping()">2</li>
+    <li id = "li3" onmouseover="stopPic(3,this)" onmouseout="keeping()">3</li>
+    <li id = "li4" onmouseover="stopPic(4,this)" onmouseout="keeping()">4</li>
+    <li id = "li5" onmouseover="stopPic(5,this)" onmouseout="keeping()">5</li>
+    <li id = "li6" onmouseover="stopPic(6,this)" onmouseout="keeping()">6</li>
+</ul>
+</div>
+</body>
+</html>

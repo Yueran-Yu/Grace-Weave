@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页标题</title>
+    <style type="text/css">
+
+    </style>
+
+    <script type="text/javascript">
+        //打开页面之后，弹出用户是用的什么浏览器
+        //window.onload
+        //navigator
+        window.onload = init;
+        function init() {
+            var obj = navigator.userAgent;//获取浏览器信息
+            if (obj.indexOf("Firefox") != -1){
+                alert("火狐浏览器。");
+            }else if(obj.indexOf("Chrome") != -1){
+                alert("谷歌浏览器。");
+            }else if(obj.indexOf("Safari") != -1){
+                alert("Safari浏览器。");
+            }else{
+                alert("其他浏览器。");
+            }
+        }
+    </script>
+</head>
+<body>
+<!--<input type=button" value="click" onclick="init()" >-->
+</body>
+</html>

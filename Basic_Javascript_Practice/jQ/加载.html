@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加载</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div>This is a div.</div>
+<input type="button" value="点击">
+<script type="text/javascript">
+    // $(document).ready(function () {
+    //     alert("这是加载事件。");
+    // })
+
+    //以下是简写形式
+    $(function () {
+        alert("加载事件。");
+    });
+
+    // Javascript：window.onload; 会把页面上的DOM 和 包括外部引入的资源加载完成后执行
+    // JQuery: $(document).ready(fn()); 把页面的DOM 加载完成后就会执行，
+    // 当代码量巨大时，JQ加载的页面 速度很快不用等待
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外部插入</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div>div1</div>
+<div>div2</div>
+<input type="button" value="click">
+<script type="text/javascript">
+    $("input").click(function () {
+       // $("div").after("<b>outside tag</b>");
+       // $("<b>new tag</b>").insertAfter("div");
+       // $("div").before("<p>new tag 2</p>");
+        $("<b>new tag 2</b>").insertBefore("div");
+
+    });
+
+</script>
+
+</body>
+</html>

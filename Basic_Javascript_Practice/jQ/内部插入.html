@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内部插入</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div>this is div</div>
+<p>paragraph</p>
+<input type="button" value="click">
+<script type="text/javascript">
+    $("input").click(function () {
+       // $("div").append($("<p>paragraph</p>"));
+       // $("p").appendTo($("div"));
+       //  $("div").prepend('<b>加粗</b>'); //加入到 div里面的 前面，变成父子级关系
+        $('<b>加粗</b>').prependTo($("div"));
+    });
+</script>
+
+</body>
+</html>

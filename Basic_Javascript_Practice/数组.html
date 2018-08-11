@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组</title>
+    <script type="text/javascript">
+        var arr=[22,24,25,29,34,22,25];
+        var sum = 0;
+        var len = arr.length; //用变量保存数组长度，程序只需要数一次，然后将值保存在len里面
+        for( i = 0; i < len; i++){
+            sum += arr[i];
+        }
+        document.write(sum);
+
+        var max = arr[0];
+        for(var i = 0; i< arr.length; i++){
+            if(max <arr[i]){
+                max = arr[i];
+            }
+        }
+        document.write("最大值为：" + max);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

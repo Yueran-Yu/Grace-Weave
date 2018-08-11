@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" onclick = "star(event)">
+<head>
+    <meta charset="UTF-8">
+    <title>点出小星星</title>
+    <style type="text/css">
+        /*body{*/
+            /*height: 600px;*/
+            /*border: 1px solid green;*/
+            /*width:1000px;*/
+        /*}*/
+    </style>
+
+    <script type="text/javascript">
+        //让页面出现小星星
+        function star(e) {
+            //创建一个星星
+            var obj = document.createElement("img");
+           //添加src属性
+            obj.src = "img/11.jpg";
+            //假设让星星的大小在20到100之间随机
+            var w = Math.floor(Math.random() * (100-2+1) + 20);
+            obj.width = w;
+            //找到鼠标点击时候的坐标位置
+            var x = e.clientX;
+            var y = e.clientY;
+            //以下形式皆为CSS的格式
+            obj.style.position = "absolute";
+            obj.style.top = y + "px";
+            obj.style.left = x + "px";
+
+            //放到body里面
+            document.body.appendChild(obj);
+        }
+    </script>
+</head>
+<body >
+<!--margin不会触发事件-->
+<!--<img src="img/06.jpg" width="100">-->
+</body>
+</html>

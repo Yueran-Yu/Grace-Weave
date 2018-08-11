@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器</title>
+    <script>
+        //注意！！！！
+        //要想清楚定时器，必须给定时器名字，否则匿名定时器无法被清除
+        // var counter1 = window.setTimeout("alert(123)",1000); //一次性定时器
+        var counter2 = window.setInterval("alert(456)", 3000); //反复定时器
+   function fn(){
+       alert(678);
+   }
+   function  fun() {
+       // window.clearTimeout(counter1);
+       window.clearInterval(counter2);
+   }
+    </script>
+</head>
+<body>
+<input type="button" value="点击清楚定时器" onclick="fun()">
+</body>
+</html>

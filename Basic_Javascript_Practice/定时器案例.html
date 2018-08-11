@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器</title>
+    <style type="text/css">
+        div{
+            border: 10px solid blue;
+            background: yellow;
+            height: 100px;
+            font-size: 40px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // window.onload 方式就是一个良好的选择，window.onload是一个事件，
+        //当文档加载完成之后就会触发该事件，可以为此事件注册事件处理函数，
+        //并将要执行的脚本代码放在事件处理函数中，于是就可以避免获取不到对象的情况。
+        //只有当文档加载完成后，才会执行时间处理函数
+
+        //另一种函数 为匿名函数  window.onload = function(){}
+        //以下的形式是非匿名函数   也可以写成 window.onload = function init(){}
+window.onload= init;
+function init() {
+    fn();
+    window.setInterval("fn()",1000);
+}
+//显示时间的
+function fn() {
+    var n = new Date(); //获取现在的时间
+    var obj = document.getElementById("d1");
+    obj.innerHTML = n.toLocaleString();
+}
+    </script>
+</head>
+<body>
+<div id="d1">
+    Time
+</div>
+</body>
+</html>

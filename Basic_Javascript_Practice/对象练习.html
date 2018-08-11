@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象练习</title>
+    <script type="text/javascript">
+        // function  fn() {
+        //    var obj = document.getElementById("d2");
+        //     //obj代表的是id为d2的input整条按钮这个元素
+        //    var value = obj.value;
+        //    alert(value);
+        // }
+
+
+        //检测用户传的文件是否符合要求 【jpg, png, gif】
+
+        function fn() {
+            var obj = document.getElementById("d1");
+            //obj代表的是id为的input按钮
+            var x = obj.value;
+            // alert(x);
+            //1.先找到点的位置
+            //2.找打点的位置之后截取点后面的内容就是我们要寻找的后缀
+            var dot = x.lastIndexOf(".");
+            //找到列点的位置
+            var postfix = x.substr(dot+1).toLocaleLowerCase();
+            if(postfix=="jpg" || postfix == "png"|| postfix == "gif"){
+                alert("照片符合要求，成功上传！");
+            }else{
+                alert("照片太丑无法识别");
+            }
+
+        }
+    </script>
+</head>
+<body>
+<input type="file" id = "d1" >
+<input type="button" id="d2" value="点击提交" onclick="fn()" width="200"/>
+<input type="button" id="d3" value="Click Here" onclick="fn()">
+<input>
+</body>
+</html>

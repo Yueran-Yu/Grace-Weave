@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<img src="a.jpg">
+<input type="button" value="点击">
+<script type="text/javascript">
+
+    //所有元素都必须加上"" 引号
+    $("input").click(function () {
+        // console.log($("input").attr("value"));
+        // $("input").attr("value","abcd"); //设置 以及获取属性
+        // $("input").attr({value:"aabb",type:"text"});
+        // $("input").attr("valu  e",function () {
+        //     return "onclick"; //通过函数的返回值设置属性
+        // });
+        // $("img").attr("src","img/03.jpg");
+        $("input").removeAttr('value');
+    });
+</script>
+</body>
+</html>

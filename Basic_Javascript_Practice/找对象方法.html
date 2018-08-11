@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>找对象方法</title>
+    <style type="text/css"></style>
+    <script type="text/javascript">
+        // 【用的较多】document.getElementById("id name");
+        // 【用的较多】document.getElementsByTagName("tag name");
+        // 相当于获取一组数组-对象的集合
+        // className:document.getElementsByName("class name"); 集合//数组【只能firefox能用】
+        // document.images; //获取图片对象
+        // document.links; 获取链接对象//数组
+        // document.forms; 获取表单对象//数组
+        // document.documentElement:HTML对象
+        // 【用的较多】event:事件信息对象
+        // 【用的较多】this: 当前对象
+        // 对象.getElementsByTagName("标签名");
+
+
+
+//obj= [
+//     div1对象
+//     div2对象
+//     div3对象
+// ];
+
+// function fn() {
+//     var obj = document.getElementsByTagName("div");
+//     for(var i = 0; i <obj.length; i++){
+//         obj[i].style.background = "lightgreen";
+//     }
+    // alert(obj);
+// }
+
+        function fn() {
+            //var x = document.images;
+            //var x = document.div;
+            var x = document.links;
+
+            x[0].style.background="red";
+            x[1].style.background="red";
+            x[2].style.background="red";
+
+        }
+
+    </script>
+</head>
+
+<body>
+<a href=" ">a</a>
+<a href=" ">b</a>
+<a href=" ">c</a>
+    <!--<img src=" "/>-->
+    <!--<img src=" "/>-->
+    <!--<img src=" "/>-->
+    <!--<div>div1</div>-->
+    <!--<div>div2</div>-->
+    <!--<div>div3</div>-->
+    <input type = "button"  value = "点击"  onclick = "fn()">
+</body>
+</html>

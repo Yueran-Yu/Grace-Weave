@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM节点</title>
+    <style type="text/css">
+
+    </style>
+    <script>
+        // parentNode: 父节点
+        // childNodes：子节点
+        // firstChild：第一个子节点
+        // lastChild: 最后一个子节点
+        // nextSibling：下一个兄弟节点【注意：必须是同父级关系】
+        // previousSibling 【注意：必须是同父级关系】
+
+        function fn() {
+    var obj = document.getElementById("div1");
+    var n = obj.childNodes.length;
+    alert(n);
+    // obj.parentNode.style.background = "lightgreen"; //改变父级颜色
+    // obj.previousSibling.previousSibling.style.background = "yellow";
+    // 在很多浏览器中空白处就是一个节点
+    // obj.parentNode.nextSibling.nextSibling.style.background = "orange";
+    // obj.firstChild.nextSibling.style.background = "orange";
+    // obj.lastChild.previousSibling.style.background = "orange";
+            obj.childNodes[1].style.background = "yellow";
+
+
+}
+    </script>
+</head>
+<body>
+<div id="div1">
+    <p>段落</p>
+    <div >这是div的内容</div>
+    <a>连接</a>
+</div>
+<div>
+    <a>aaa</a>
+    锄禾日当日
+</div>
+<input type="button" value="点击" onclick="fn()">
+</body>
+</html>

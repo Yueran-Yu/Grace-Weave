@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标事件1</title>
+    <script>
+function fn() {
+    //获取div
+    var obj = document.getElementById("d1");
+    //修改对象的属性
+    obj.style.background = "#ffcccc";
+    obj.style.fontSize = "60px";
+    obj.style.color = "yellow";
+    obj.style.border = "2px solid blue";
+}
+    </script>
+</head>
+<body>
+<div id = "d1" onmouseover="fn()">
+    This is what I want.
+</div>
+</body>
+</html>

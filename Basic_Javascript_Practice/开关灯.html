@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>开关灯</title>
+    <script>
+        function fn1() {
+            var obj = document.getElementById("d1");
+            obj.src = "img/05.jpg";
+        }
+        function fn2() {
+            var obj = document.getElementById("d1");
+            obj.src = "img/04.jpg";
+        }
+    </script>
+</head>
+<body>
+<img src="img/04.jpg" id="d1" onmouseover="fn1()" onmouseout="fn2()">
+</body>
+</html>

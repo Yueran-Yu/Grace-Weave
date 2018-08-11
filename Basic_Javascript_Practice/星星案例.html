@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>星星案例</title>
+    <style type="text/css">
+        #d2{
+            border: 1px solid black;
+             width:100px;
+            height: 20px;
+            display: inline-block;
+        }
+        #d3{
+            display: inline-block;
+            background: red;
+            height:20px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        var counter; // 弹出星星频率计时器
+        var time = 0; //记录游戏进行时间定时器名字
+        var count = 0; //记录星星个数的变量
+        var n = 0;  //记录游戏进行时间的变量
+        // window.onload = init;  //使用 用户自己点击才启动游戏
+        function startGame() {
+            window.clearInterval(time);
+            window.clearInterval(counter);
+            time=window.setInterval("playingTime()",1000);
+            counter = window.setInterval("star()",400);
+        }
+
+        function star() { // 纵观整个 代码， star() 函数才是主要的功能函数
+            var obj = document.createElement("img");// 创建星星
+
+            obj.src = "12.gif";//给星星添加src属性
+            var w = Math.floor(Math.random()*(100-20+1) +20);//随机范围【20-81】随机星星大小
+            obj.width = w;
+
+             var x = Math.floor(Math.random()*1166 + 100); //随机范围【100-1266】随机页面x坐标
+             var y = Math.floor(Math.random()*500 + 100); //随机范围【100-600】随机页面y坐标
+            obj.style.position = "absolute";
+            obj.style.top = y + "px";
+            obj.style.left = x + "px";
+
+            obj.onclick = removeStar; //添加点击事件
+
+            count++;
+            var sp = document.getElementById("d3");
+            sp.style.width = count*5 + "px;"
+            if(count >=20){
+                alert("Game over.");
+                window.clearInterval(counter);
+            }
+            document.body.appendChild(obj); //放到body中
+        }
+        //点击删除星星的函数
+        function removeStar() {
+            //对象.事件 = 事件处理函数
+            //注意：要想删除某个节点，必须找到它的父节点
+            //注意：在绑定事件中 this 可以直接使用
+           this.parentNode.removeChild(this); //删除obj
+            //当前 星星对象 调用parentNode  用removeChild  方法  自己移除自己 。
+            count--;
+            var sp = document.getElementById("d3");
+            sp.style.width = count*5 + "px";
+        }
+        function stopGame() {
+            alert("Stop Game.");
+            //window.clearInterval(counter); //不能用此函数，因为会导致  点击 星星作弊
+        }
+        //记录游戏时间的函数
+        function playingTime() {
+            n++;
+            var obj = document.getElementById("d1");
+            obj.innerHTML = "Game is going on " + n + " seconds..."
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="开始游戏" onclick="startGame()">
+<input type="button" value ="暂停游戏" onclick="stopGame()">
+<span id="d1">Game is going on 0 seconds...</span>
+<span id = "d2"> <span id = "d3"></span></spanid>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页标题</title>
+    <style type="text/css">
+        #d1{
+            font-size:60px;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = init;
+        function init() {
+            window.setTimeout("shift()", 5000);
+            window.setInterval("count()",1000);
+        }
+
+        function shift(){
+            location.replace("http://baidu.com");
+        }
+
+        function count() {
+            var obj= document.getElementById("d1");
+            var n = obj.innerHTML;
+            obj.innerHTML = n - 1;
+        }
+    </script>
+</head>
+<body>
+账号注册成功，页面在<span id = "d1">5</span>秒后会自动跳转到首页...
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类选择器</title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js">
+
+    </script>
+</head>
+<body>
+<ul>
+    <li>aa</li>
+    <li>bb</li>
+    <li>cc</li>
+    <li>dd</li>
+    <li>ee</li>
+    <li>ff</li>
+</ul>
+<input type="button" value="点击">
+<script type="text/javascript">
+$("input").click(function() {
+    // $("li:first-child").css({background:"pink"});
+    // $("li:first-of-type").css({background:"pink"});
+    // $("li:last-child").css({background:"pink"});
+    // $("li:last-of-type").css({background:"blue"});
+    $("li:nth-child(1)").css({background:"orange"});
+    $("li:nth-of-type(3)").css({background:"pink"});
+    $("li:nth-last-child(2)").css({background:"grey"});
+    $("li:nth-last-of-type(1)").css({background:"purple"});
+
+
+});
+
+</script>
+</body>
+</html>

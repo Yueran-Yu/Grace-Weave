@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>层级选择器</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js">层级选择器</script>
+</head>
+<body>
+<div>
+    <p>p标签
+        <a href=" ">p标签里面的a</a>
+    </p>
+    <a href="">a链接</a>
+</div>
+<div>
+    <ul>
+        <li id="d1">aaa</li>
+        <li id="d2">bbb</li>
+        <li>ccc</li>
+        <li>ddd</li>
+        <li>eee</li>
+        <li>fff</li>
+    </ul>
+    <h1>哈哈哈哈哈哈哈</h1>
+    <h2>hhhhhhhhh</h2>
+</div>
+<input type="button" value="点击" >
+
+<script type="text/javascript">
+    //层级选择器
+    //ancestor descendant: 表示选取ancestor里面所有的descendant元素
+    //parent > child: 选择parent元素的子元素
+    //$(select).action();
+    $("input").click(function(){
+        // $("div a").css({background:"pink"});
+        // $("div > p >a").css({background:"pink"});
+        // $("div >ul>li").css({background:"yellow"});
+        // $("#d1+").css({background:"red"}); // d1 后面的 + 号，表示后面的兄弟，紧挨着的下一个
+        // $("#d1~").css({background:"#FFA EB9"}); // d1后面的 ~号，表示后面所有的兄弟
+        // $("li:first").css({background:"yellow"});//第一个子元素
+        // $("li:last").css({background:"pink"}); //最后一个子元素
+        // $("li:even").css({background:"pink"});//偶数行数,0也是偶数
+        // $("li:odd").css({background:"pink"}); //奇数行数
+        // $("li:eq(2)").css({background:"pink"}); //:eq(index); 按照下标索引查找对象
+        // $("li:gt(3)").css({background:"pink"}); //:gt(index); 查找大于index索引的元素
+        // $("li:lt(3)").css({background:"pink"});//:lt(index); 查找小 于index索引的元素
+        // $(" :header").css({background:"pink"}); // 修改header 找h标签， 不需要父元素
+        $("li:not(#d2)").css({background:"pink"}); // :not(select)； 表示选择时除去select元素
+    });
+</script>
+</body>
+</html>

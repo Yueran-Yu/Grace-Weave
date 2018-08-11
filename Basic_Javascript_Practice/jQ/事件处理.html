@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件处理</title>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div>这是div.</div>
+<input type="button" value="click">
+<script type="text/javascript">
+    // $("input").bind("click",function () {
+    //     alert("这是绑定事件。");
+    // });
+    $("div").bind({"mouseover": function () {
+        $("div").html("这是mouseover");},
+        "mouseout": function () {
+            $("div").html("这是mouseout.");
+        }
+    });
+
+    $("input").bind("click", function () {
+      $("div").unbind("mouseout");
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象案例</title>
+    <script>
+        // var obj = {name:"Grace",
+        //             age: 24,
+        //           taiji: function(){alert("太极")},
+        //           cooking: function(){alert("cooking")}
+        // };
+        // alert(obj.age);
+        // obj.taiji() ;
+        // obj.cooking();
+        
+        
+        function fn() {
+            obj = document.getElementById("d1");
+            var value = obj.value = "wowohahaha";
+            alert(value); //要找对象的属性改值
+        }
+    </script>
+</head>
+<body>
+<input type="button" id = "d1" value="点击" onclick="fn()">
+</body>
+</html>

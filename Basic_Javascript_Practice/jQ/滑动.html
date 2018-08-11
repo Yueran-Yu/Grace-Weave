@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画基础1</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height:100px;
+            background: pink;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+<div>
+
+</div>
+<input type="button" value="点击slideUp" id="d1">
+<input type="button" value="点击slideDown" id="d2">
+<input type="button" value="点击sildeToggle" id="d3">
+<script type="text/javascript">
+    $("#d1").click(function () {
+        $("div").slideUp();
+    });
+
+   $("#d2").click(function () {
+       $("div").slideDown();
+   });
+    $("#d3").click(function () {
+        $("div").slideToggle();
+    });
+
+
+</script>
+</body>
+</html>

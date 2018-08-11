@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math对象</title>
+    <script type="text/javascript">
+     // var n = Math.abs(-6);
+     // var n = Math.round(2.3);
+     // var n = Math.floor(4.7);
+     // var n = Math.ceil(4.3);
+     var n = Math.random() ;
+     for(var i =1; i <= 6; i++){
+         //先获取0到20之间的数，再加上10
+         var n = Math.random() * 21; //范围是0到20.999999
+         n += 10;
+         n = Math.floor(n);
+         document.write(n + "<br />");
+     }
+
+     document.write(n);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

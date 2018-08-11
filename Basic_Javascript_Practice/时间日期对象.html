@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间日期对象</title>
+    <script type="text/javascript">
+// var n1 = new Date();
+// var n2 = new Date("1999/9/9 6:6:6");
+// var n3 = new Date(2343556734678);
+// var n4 = new Date(1999,9,9,6,6,6);
+// document.write(n1.toLocaleString() + "<br />");
+// document.write(n2.toLocaleString() + "<br />");
+// document.write(n3.toLocaleString() + "<br />");
+// document.write(n4.toLocaleString() + "<br />");
+
+// var n = new Date();
+// var m =n.getFullYear();
+// var m = n.getMonth();
+// var m = n.getDate();
+// var m = n.getHours();
+// var m = n.getTime();
+//  n.setMonth(0,20);
+//  document.write(n);
+
+        var birth = new Date("2006/6/28 7:20:34");
+        var nowTime = new Date();
+        var n1 = birth.getTime();
+        var n2 = nowTime.getTime();
+        var result = (n2-n1)/24/60/60/1000;
+        document.write("到现在经过了： "+ result+ "天");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

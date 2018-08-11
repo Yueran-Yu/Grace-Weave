@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对象访问</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div>div1</div>
+<div>div2</div>
+<div>div3</div>
+<input type="button" value="click">
+<script type="text/javascript">
+    [
+        div1
+        div2
+        div3
+    ]
+    //each(function(index[1], element[div2]){});
+
+    $("input").click(function () {
+       // console.log($("div").length);
+       //  console.log($("div").size());
+       //  $("div"),html("aaaa");
+        $("div").each(function(n, obj){
+            // console.log(obj);
+            //obj和this 相互替换
+            $(this).html("这是第" + n + "个");
+        });
+    });
+</script>
+</body>
+</html>

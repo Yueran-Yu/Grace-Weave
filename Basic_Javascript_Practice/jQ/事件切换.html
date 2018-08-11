@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件切换</title>
+
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<div>别走，你要减肥。</div>
+
+<script type="text/javascript">
+
+        $("div").hover(
+            function () {
+            $(this).html("orange");
+        },
+            function () {
+            $(this).html("blue");
+        });
+
+</script>
+</body>
+</html>

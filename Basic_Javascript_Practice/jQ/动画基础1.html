@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画基础1</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height:100px;
+            background: pink;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+<div>
+
+</div>
+<input type="button" value="点击show" id="d1">
+<input type="button" value="点击hide" id="d2">
+<input type="button" value="点击toggle" id="d3">
+<script type="text/javascript">
+$("#d1").click(function () {
+    $("div").show(2000, function () {
+        alert("show完成。");
+    });
+});
+
+$("#d2").click(function () {
+   $("div").hide(2000, function () {
+       alert("hide ok.");
+   });
+});
+
+$("#d3").click(function () {
+    $("div").toggle();
+});
+</script>
+</body>
+</html>

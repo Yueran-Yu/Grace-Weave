@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>求偶数</title>
+    <script>
+        function ab(n) {
+            var count = 0;
+            for(var i = 1; i <= n; i++){
+                if(i % 2== 0){
+                    count++;
+                }
+            }
+            return count;
+        }
+        var abcd = ab(1000); // 凡是用到return的地方，都需要用一个对象来接收他
+        document.write("偶数的个数为： " + abcd);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

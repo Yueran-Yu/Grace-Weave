@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页版计算器</title>
+    <script type="text/javascript">
+        function calculation() {
+            //获取第一个input对象的value值
+            var obj1 = document.getElementById("text1").value;
+            //获取第二个input对象的value值
+            var obj2 = document.getElementById("text2").value;
+            //获取操作符的value值
+            var operator = document.getElementById("operator").value;
+            //获取第三个input对象
+            var obj3 = document.getElementById("text3");
+            obj1 = parseFloat(obj1);
+            obj2 = parseFloat(obj2);
+
+            var result;
+            // if(operator == "+"){
+            //     result = obj1 + obj2;
+            // }else if(operator == "-"){
+            //     result = obj1 - obj2;
+            // }else if(operator == "*"){
+            //     result = obj1 * obj2;
+            // }else if(operator=="/"){
+            //     result = obj1 / obj2;
+            // }
+
+            switch (operator) {
+                case "+": result = obj1 + obj2;break;
+                case "-": result = obj1 - obj2;break;
+                case "*": result = obj1 * obj2;break;
+                case "/": result = obj1 / obj2;break;
+                default: nothing ; break;
+            }
+            obj3.value = result;
+        }
+    </script>
+</head>
+<body>
+<input type="text" id="text1">
+<select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+
+<input type="text" id="text2">
+=
+<input type="text" id="text3">
+<input type="button" value="点击计算" onclick="calculation()">
+
+</body>
+</html>

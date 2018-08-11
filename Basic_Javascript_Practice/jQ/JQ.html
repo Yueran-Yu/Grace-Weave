@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQ2</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src = "jquery-1.11.3.min.js" >
+        //选择器
+        //事件
+        //DOM
+        //动画
+        //基本操作
+        //插件
+        //ajax
+    </script>
+</head>
+<body>
+    <div id="div1" class = "d1">efqeb</div>
+    <!--<div class="d1">asdfdd</div>-->
+    <!--<div class="d1">asfbe</div>-->
+    <p>段落</p>
+    <a href=" ">连接</a>
+    <input type="button" value="点击"> 
+    <script type="text/javascript">
+        $("input").click(function(){
+            // $("#div1").css({background:"orange"}); //id选择器
+            // $("div").css({background:"pink"}); // element元素选择器
+            // $(".d1").css({background:"pink"}); //class元素选择器
+            $("div,p,a").css({background:"pink"}); //select选择器
+            //主要语法就是： $(select).action();
+        });
+
+    </script>
+</body>
+</html>

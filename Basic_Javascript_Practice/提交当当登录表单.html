@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提交当当登录表单</title>
+    <style>
+
+    </style>
+    <script>
+        function checkForm() {
+            // return false;
+            //获取email 的值
+            var email = document.getElementById("email").value;
+            var pwd = document.getElementById("pwd").value;
+        //如果email为空，提示不能为空
+            //如果不包含@符号，提示格式错误，否则就是正确
+            if(email==""){
+                alert("email地址不能为空。");
+                return false;
+            }else if(email.indexOf("@")== -1){
+                alert("email地址格式错误，必须包含@符号。");
+                return false;
+            }else if (pwd==""){//判断密码是否符合要求
+                alert("password地址不能为空。");
+                return false;
+            }else if(pwd.length <6){
+                alert("The password length at least needs 6 characters.");
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<!--开始登录表单-->
+<form action="" method="post" onsubmit="return checkForm()">
+    <!--用 onsubmit=" ";的时候 一定要加 return 函数（），这样就能将结果返回到onsubmit、本身-->
+    <dl class="login_content">
+        <dt>Email地址：</dt> <!--要求：Email包含"@"这个字符就算合格 -->
+        <dd><input id="email" type="text" class="login_content_input"></dd>
+    </dl>
+
+    <dl class="login_content">
+    <dt>密码：</dt> <!--要求：密码至少6位-->
+    <dd><input id="pwd" type="password" calss="login_content_input"></dd>
+    </dl>
+
+    <dl class = "login_content">
+    <dt></dt>
+    <dd><input id="btn" value="click" type="submit" class="login_btn_out"></dd>
+    </dl>
+</form>
+</body>
+</html>

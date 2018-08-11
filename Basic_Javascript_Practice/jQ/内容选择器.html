@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内容选择器</title>
+    <style type="text/css">
+        #d1{
+            width: 200px;
+            height: 200px;
+            background:blue;
+            display: block;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+<div id="d1"></div>
+<div id="d2">这是div2</div>
+<div id="d3"></div>
+<div id="d4"><p>段落</p>这是div4</div>
+
+<input type="button" value="点击">
+<script type="text/javascript">
+    $("input").click(function(){
+        // $("div:contains('这是div2')").css({background:"#FFAEB9"});
+        // console.log($("div:empty"));
+        // console.log() 控制台日志
+        // $("div:has(p)").css({background:"pink"}); //has 是指包含某个标签的那一行
+        // $("div:parent").css({background:"pink"}); //匹配含有子元素或者 文本 的元素
+        // $("div:parent").hide(6000);
+        $("#d1").hide(6000);
+    });
+</script>
+</body>
+</html>

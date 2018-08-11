@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css类练习</title>
+    <style type="text/css">
+
+        .div1{
+              width: 1000px;
+              height: 100px;
+              background: rgba(90,155,54,0.66);
+          }
+        .div2{
+            width: 1000px;
+            height: 100px;
+            background: coral;
+        }
+         .div3{
+            width: 1000px;
+            height: 100px;
+            background:#ffcc99;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js">
+    </script>
+</head>
+<body>
+<div class="div1"></div>
+<input type ="button" value="点击查看布局1" id="d1">
+<input type="button" value="点击查看布局2" id="d2">
+<input type="button" value="点击查看布局3" id="d3">
+<script type="text/javascript">
+    $("#d1").click(function () {
+        $("div").removeClass("div2");
+        $("div").removeClass("div3");
+
+        $("div").addClass("div1");
+    });
+
+    $("#d2").click(function () {
+        $("div").removeClass("div1");
+        $("div").removeClass("div3");
+        $("div").addClass("div2");
+    });
+
+    $("#d3").click(function () {
+        $("div").removeClass("div1");
+        $("div").removeClass("div2");
+        $("div").addClass("div3");
+    });
+</script>
+</body>
+</html>

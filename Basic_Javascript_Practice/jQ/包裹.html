@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>包裹</title>
+    <style type="text/css"></style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+</head>
+<body>
+
+<div id="d3">div1<a href="">aaaaaa</a></div>
+<div id="d4">div2</div>
+<div>div3</div>
+<p class="ab">This is a paragraph.</p>
+<input type="button" value="click1" id="d1">
+<input type="button" value="click2" id="d2">
+
+<script type="text/javascript">
+// $("input").click(function () {
+//     $("#d1").wrap("<div></div>");
+// });
+
+// $("#d2").click(function () {
+//    // $("div").unwrap() ;
+//     $("div").wrapInner("<p></p>");
+// });
+
+$("#d1").click(function () {
+   // $("div").replaceWith("<p>aaa</p>");
+   // $("<p>efbqwgqe</p>").replaceAll("div");
+   // $("#d3").empty(); // empty 删除的是内容
+   // $("#d3").remove(); //remove 是删除标签
+   //  console.log($("p").clone());
+    $("p").clone().appendTo($("#d4"))
+
+});
+
+</script>
+</body>
+</html>

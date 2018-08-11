@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>移动瞄准案例1</title>
+    <style type="text/css">
+      div{
+          width:800px;
+          height:200px;
+          border: 1px solid rosybrown;
+          background: antiquewhite;
+          color: blueviolet;
+          cursor: crosshair;
+      }
+    </style>
+    <script type="text/javascript">
+        function fn(e) {
+            var obj = document.getElementById("d1");
+           //获取事件发生时候的x坐标
+            var x = e.clientX;
+            //获取事件发生时候的y坐标
+            var y = e.clientY;
+            //获取内部文字内容
+            obj.innerHTML = "坐标"+ x + "," + y;
+        }
+    </script>
+</head>
+<body>
+<div id="d1" onmousemove="fn(event)">
+    坐标0,0
+</div>
+</body>
+</html>

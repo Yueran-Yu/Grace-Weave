@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页标题2</title>
+    <style type="text/css">
+
+    </style>
+    <script type="text/javascript">
+        function fn() {
+                var n = history.length;
+                alert(n);
+        }
+        function fun() {
+            location.href = "history.back.html";
+        }
+        function  func() {
+            history.forward();
+        }
+        //history.go(n) 跳转到历史记录中指定的页面
+        //如果是-1，实际上就是 history.back的功能
+    </script>
+</head>
+<body>
+<input type="button" value="click length" onclick="fn()">
+<input type="button" value="click JUMP TO" onclick="fun()">
+<input type="button" value="click forward" onclick="func()">
+</body>
+</html>

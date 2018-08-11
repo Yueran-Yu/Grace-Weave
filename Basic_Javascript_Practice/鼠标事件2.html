@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标事件2</title>
+    <script type="text/javascript">
+        //  鼠标事件：
+        // onclick:点击
+        // onmouseover:鼠标放上
+        //  onmouseout:鼠标离开
+        // ondblclick:双击
+        // onmousedown:鼠标按下
+        // onmouseup:鼠标抬起
+
+        <!--表单事件：-->
+        <!--onfocus:获得焦点-->
+        <!--onblur:失去焦点-->
+        <!--onsubmit:提交事件-->
+        <!--onchange:当发生改变的时候-->
+        <!--onreset:重置事件-->
+
+        <!--键盘事件：-->
+        <!--onkeyup:键盘抬起-->
+        <!--onkeydown:键盘按下-->
+        <!--onkeypress:键盘按键一次-->
+
+        <!--窗口事件：-->
+        <!--onload: 事件  页面加载完成之后立刻执行的事件-->
+        <!--两种方式：-->
+        <!--1.<script》 window.onload =init;(这里应填写 函数名) 《/script>-->
+        <!--2.《body onload="函数名（）"》<《body》  注意：在body里面函数名一定要加上-->
+
+<!--event: 保存事件发生时的相关信息-->
+<!--当事件发生的时候:event-->
+<!--event.clientX:事件发生时的X的坐标-->
+<!--event.clientY:事件发生时的Y的坐标-->
+<!--event.target:事件源-->
+
+        // window.onload = init;
+        function init() {
+            alert("这是窗口事件。");
+            }
+   </script>
+</head>
+<body onload="init()">
+abcd
+</body>
+</html>

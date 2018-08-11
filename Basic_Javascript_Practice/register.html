@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <style type="text/css">
+        .msg{color:gray;}
+        #emailMsg{
+            border: 1px solid red;
+            width: 200px;
+            height: 20px;
+            display: inline-block;
+        }
+        .msg2{color:#ff3333;background-color: #ffcc99; border:solid 1px gray; line-height:18px; padding:5px 3px}
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.min.js">
+        function checkForm(){
+           if(blurEmail() == false
+               || blurNickName() == false
+               || blurPwd()== false
+               ||blurRepwd()== false
+               || checkSex()==false
+               ||checkProvince()==false){
+               return false;
+        }else{
+               return true;
+           }
+        }
+        //acquire the function focusEmail() of email address
+        function focusEmail(){
+            var emailMsg= document.getElementById("emailMsg"); //获得email后面的span对象
+            emailMsg.innerHTML = "This email address is used to receive email, please keep it safe.";//给innerHTML赋值
+            emailMsg.className = "msg";
+        }
+
+        function  blurEmail() { //email地址框失去焦点的函数
+            var email = document.getElementById("email").value;
+
+            if(email == ""){ //获取email后面的span对象
+                emailMsg.innerHTML = "地址不能为空";
+                emailMsg.className = "msg2";
+                return false;
+            }else if(email.indexOf("@")!=-1) {
+                emailMsg.innerHTML="Email address error";
+                emailMsg.className ="msg2";
+                return false;
+            }else{
+                emailMsg.innerHTML="<img src='12.gif'>";
+                return true;
+            }
+        }
+        function focusNickName() {
+            var nickMsg = document.getElementById("nickMsg");
+            nickMsg,innerHTML = "Please enter a nick name you like:";
+            nickMsg.className = "msg";
+        }
+        function blurNickName() {
+            var nickName = document.getElementById("nickName").value;
+            //获取昵称后面的span对象
+            var nickMsg = document.getElementById("nickMsg");
+            if(nickName = ""){
+                nickMsg.innerHTML = "昵称不能为空";
+                nickMsg.className = "msg2";
+                return false;
+            }else if(nickName.length < 6){
+                nickMsg.innerHTML = "昵称长度错误";
+                return false;
+            }else{
+                nickMsg.innerHTML="<img src='12.gif'>";
+                return true;
+            }
+        }
+        function focusPwd() {
+            var pwdMsg = document.getElementById("pwdMsg");
+            pwdMsg.innerHTML="请输入密码并保存";
+            pwdMsg.className = "msg";
+        }
+        function blurPwd() {
+            var pwd = document.getElementById("pwd").value;
+            var pwdMsg = document.getElementById("pwdMsg");
+            if(pwd=="") {
+                pwdMsg.innerHTML = "密码不能为空";
+                pwdMsg.className = "msg2";
+                return false;
+            }else if(pwd.length < 6){
+                pwdMsg.innerHTML="密码长度不能少于6位";
+                pwdMsg.className = "msg2";
+                return false;
+            }else{
+                pwdMsg.innerHTML="<img src='12.gif'>";
+                return true;
+            }
+        }
+        function focusRepwd() {
+            var repwdMsg = document.getElementById("repwdMsg");
+            repwdMsg.innerHTML="请确认和原密码相同";
+            pwdMsg.className = "msg";
+        }
+        function blurRepwd() {
+            var repwd = document.getElementById("repwd").value;
+            //获取原来 密码 框的value
+            var pwd = document.getElementById("pwd").value;
+            //获取密码确认框后面额span对象
+            var repwdMsg = document.getElementById("repwdMsg")
+            if(repwd=="") {
+                repwdMsg.innerHTML = "密码不能为空";
+                repwdMsg.className = "msg2";
+                return false;
+            }else if(repwd.length < 6){
+                pwdMsg.innerHTML="密码长度不能少于6位";
+                pwdMsg.className = "msg2";
+                return false;
+            }else if(repwd != pwd) {
+                repwdMsg.innerHTML = "密码不相同";
+                return false;
+            }else{
+                repwdMsg.innerHTML="<img src='12.gif'>";
+                return true;
+            }
+        }
+        //检测性别的函数
+        function checkSex() {
+            var sex = document.getElementsByName("sex");
+            var sexMsg = document.getElementById("sexMsg");
+            if (sex[0].checked == true || sex[1].checked == true) {
+                return true;
+            } else {
+                sexMsg.innerHTML = "请选择性别";
+                sexMsg.className = "msg2";
+                return false;
+            }
+        }
+             function clickSex() {
+            var sexMsg = document.getElementById("sexMsg");
+            sexMsg.innerHTML = "<img src='12.gif'>";
+            sexMsg.className = "msg";
+             }
+             function checkProvince() {
+                 var province = document.getElementById("province").value;
+                 if(province==""){
+                     //获取select后面span对象
+                     var proMsg = document.getElementById("proMsg");
+                     if(province==""){
+                         proMsg.innerHTML="请选择省份";
+                         proMsg.className = "msg2";
+                         return false;
+                     }
+
+                 }
+             }
+    </script>
+</head>
+<body>
+<form action="register.php" method="post" id="myform" onsubmit="return checkForm()">
+    <dl class="register_row">
+        <dt>Email地址：</dt>
+        <dd><input id="email" type="text" class="register_input" onfocus="focusEmail()" onblur="blurEmail()"/>
+            <span id="emailMsg" class="msg"></span>
+        <!--<dd><div id="email_prompt" class="register_input">此邮箱是您登录的账号，并将用来接收验证邮件</div></dd>-->
+
+        </dd>
+    </dl>
+    <dl>
+        <dl class="register_row">
+            <dt>设置昵称：</dt>
+            <dd>
+                <input id="nickName" type="text" class="register_input"onfocus="focusNickName()" onblur="blurNickName()" />
+                <span id="nickMsg" class="msg"></span>
+            </dd>
+            <dd></dd>
+        </dl>
+        <dl class="register_row">
+            <dt>设定 密码：</dt>
+            <dd><input id="pwd" type="password" class="register_input" onfocus="focusPwd()" onblur="blurPwd()"/>
+            <span id="pwdMsg" class="msg"></span></dd>
+        </dl>
+        <dl class="register_row">
+            <dt>再输入一次密码：</dt>
+            <dd><input id="repwd" type="password" class="register_input" onfocus="focusRepwd()" onblur="blurRepwd()">
+                <span id="repwaMsg" class="msg" ></span>
+            </dd>
+        </dl>
+        <dl class="register_row">
+            <dt>性别：</dt>
+            <dd><input name="sex" type="radio" value="男" onclick="clickSex()"><label>男</label></dd>
+            <dd><input name="sex" type="radio" value="女" onclick="clickSex()"><label>女</label>
+                <span id="sexMsg" class="msg"></span></dd>
+        </dl>
+    </dl>
+    <dl class="register_row">
+        <dt>所在地区：</dt>
+        <dd><select id = "province" name = "province">
+            <option value="">请选择</option>
+            <option value="1">北京</option>
+            <option value="2">山东</option>
+            <option value="3">河北</option>
+            <option value="4">内蒙</option>
+            <option value="5">上海</option>
+            <option value="99">其他</option>
+        </select>
+        <span id="proMsg" class="msg"></span></dd><
+        <dd><select id="city" style="width:130px;">
+            <option>请选择城市/地区</option>
+        </select></dd>
+    </dl>
+</form>
+</body>
+</html>
