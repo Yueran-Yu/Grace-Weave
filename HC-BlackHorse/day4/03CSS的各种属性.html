@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03CSS的各种属性.html</title>
+
+    <!--
+    1 层叠性
+    2 继承性
+    3 优先级：类选择器 优先级比 标签选择器优先级更高
+    -->
+    <style type="text/css">
+        div{
+            color: red;
+            font-size: 25px;
+        }
+        div{ /*  权重：0，0，0，1  */
+            color: pink;
+        }
+        div{ /*  权重：0，0，0，1  */
+            color: hotpink !important;
+        }
+
+        .ddd{ /* 权重 0，0，1，0 /
+            color: orange;
+            font-size: 50px;
+        }
+        #haha{  /*  权重： 0,1,0,0  */
+            color: coral;
+        }
+
+       /*  每个行内样式贡献值 权重：1，0，0，0  */
+
+
+        /**{ 权重：0，0，0，0*/
+            /**/
+        /*}*/
+
+    </style>
+</head>
+<body>
+   <!--css层叠样式表 样式冲突就近原则，样式不冲突以那种样式为准-->
+<div class="ddd" id="haha">哈佛耶鲁剑桥
+<p>子标签会继承父标签的某些样式</p>
+</div>
+</body>
+</html>

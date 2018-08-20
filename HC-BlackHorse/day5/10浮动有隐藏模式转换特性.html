@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09浮动特性对齐.html</title>
+    <style type="text/css">
+        div{
+            height: 100px;
+            background-color: pink;
+            float: left;
+            /*可以让元素默认转换成行内块特性*/
+        }
+        span{
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            float: left;
+            /*妙用 如果已经给行内元素添加了浮动 此时不需要转换, 这个元素也可以有宽高。*/
+
+            特别注意：
+            首先浮动的盒子需要和标准流的父亲搭配使用，
+            其次特别的注意浮动可以使元素显示模式体现为行内块特性。
+        }
+    </style>
+</head>
+<body>
+<div>学习学习在学习</div>
+<span>123467 </span>
+</body>
+</html>

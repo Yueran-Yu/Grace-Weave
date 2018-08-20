@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07并集和交集选择器.html</title>
+    <style type="text/css">
+        div.red{  /*交集选择器 既是div 又叫red 满足条件 用的较少*/
+            color: red;
+        }
+
+        div, p, span { /*  并集选择器： 记住要加逗号  适合于相同样式*/
+            color: pink;
+        }
+
+
+
+        /*.father > li > a{*/
+            /*color: red;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div>交集选择器</div>
+<div>交集选择器</div>
+<div class="red">交集选择器</div>
+<p>交集选择器</p>
+<p>交集选择器</p>
+<p>交集选择器</p>
+<p class="red">交集选择器</p>
+
+<span>hahahha</span>
+<a>jajaja</a>
+
+
+<!--<ul class="father">-->
+    <!--<li>-->
+        <!--<a href="#">123</a>-->
+         <!--<ul>-->
+           <!--<li>-->
+               <!--<a href="#">abc</a>-->
+           <!--</li>-->
+         <!--</ul>-->
+    <!--</li>-->
+<!--</ul>-->
+</body>
+</html>

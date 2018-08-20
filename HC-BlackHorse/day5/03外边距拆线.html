@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03外边距拆线.html</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .father{
+            width: 498px;
+            height:498px;
+            background-color: pink;
+            /*padding-top: 50px;*/
+            /*border:1px solid pink; 1 用border 这种方法会撑宽盒子 */
+             /*padding-top:1px;
+             2 用padding 注意：之后必须减去width和height相应的边框宽度，这种方法也会撑开盒子*/
+            overflow: hidden;
+        }
+
+        .son{  /*嵌套块元素的垂直外边距的合并*/
+            width: 100px;
+            height:100px;
+            background-color: purple;
+            margin-top: 180px;
+            margin-left: 180px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="father">
+         <div class="son"></div>
+    </div>
+     </body>
+</html>

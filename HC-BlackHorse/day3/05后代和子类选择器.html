@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05后代和子类选择器.html</title>
+    <style type="text/css">
+        div p{ /*后代选择器（包含选择器） p一定是div的后代*/
+            color: pink;
+        }
+        .father p{
+            color: green;
+        }
+        ul li{
+            color: #daa520;
+        }
+    </style>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+<div>王者荣耀</div>
+<div>王者荣耀</div>
+<div>王者荣耀</div>
+<div>王者荣耀</div>
+<div>
+    <p>王思聪</p>
+</div>
+<div class="father">
+    <p>王思聪</p>
+</div>
+<ul>
+    <li>qw</li>
+    <li>ed</li>
+    <li>qw</li>
+</ul>
+<p>www</p>
+<p>www</p>
+</body>
+</html>

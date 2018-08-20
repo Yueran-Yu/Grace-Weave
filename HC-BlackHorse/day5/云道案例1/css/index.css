@@ -1,0 +1,81 @@
+/* 先删除默认的内外边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    height: 3000px;
+}
+
+/* 顶部导航栏开始 */
+.header{
+    height: 100px;
+    background-color: #fff;
+}
+.inner{
+    width: 1200px;
+    height: 100px;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 100px;
+}
+.logo{
+    width: 390px;
+    height: 100px;
+    float: left;
+}
+.nav{
+    width: 800px;
+    height: 100px;
+    background-color: #fff;
+    float: right;
+}
+.nav ul{
+    overflow: hidden;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    margin: 0 20px;
+
+}
+.nav li a{
+    font-family: Arial;
+    color: rgba(0,0,0,0.69);
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    color:#2288f6;
+}
+/*banner start */
+.banner {
+    height: 620px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+/*banner end*/
+.service{
+    width: 1055px;
+    height: 660px;
+    margin: 75px auto 0;
+}
+.service-hd{
+    border-top: 1px solid #ccc;
+    margin: 0 25px;
+}
+.service-hd h3 {
+    width:167px;
+    height: 46px;
+    margin: -15px auto 0;
+}
+.service-hd p{
+    font-size: 12px;
+    color: #666;
+    line-height: 26px;
+    text-align: center;
+    width: 830px;
+    margin: 15px auto 0;
+}
+
+

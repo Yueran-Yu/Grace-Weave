@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08链接伪类选择器.html</title>
+    <style type="text/css">
+      /* 注意：此顺序不能颠倒，按照 ivha 的顺序写，否则有些效果就会失效。*/
+        a:link{  /*未访问过的链接状态*/
+            color:#666;
+            font-size: 25px;
+            text-decoration: none; /* 取消下划线*/
+            font-weight: bold;
+        }
+
+        a:visited{
+                  color: aqua;
+              }
+
+        a:hover{  /*  鼠标经过连接时候的样子  */
+            color: rgba(255,9,0,0.65);
+        }/*鼠标按下时候的样子*/
+
+        a:active{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+<a href="http://www.baidu.com">百度</a>
+</body>
+</html>

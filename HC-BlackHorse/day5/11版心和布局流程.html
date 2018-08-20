@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11版心和布局流程.html</title>
+    <style type="text/css">
+
+        .top,
+        .banner,
+        .main,
+        .footer{
+            width: 900px;
+            background-color: #eee;
+            border:1px dashed #ccc;
+            margin: 0 auto;
+        }
+        .top{
+
+            height: 80px;
+        }
+        .banner{
+             height: 120px;
+             margin: 10px auto;
+         }
+        .main{
+            height: 500px;
+        }
+        .footer{
+            height: 100px;
+            margin: 10px auto 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="top">top</div>
+<div class="banner">banner</div>
+<div class="main">main</div>
+<div class="footer">footer</div>
+</body>
+</html>
+
+<!--
+1 确定页面的版心（可视区）。
+2 分析页面中的行模块，以及每个行模块中的列模块。
+3 制作HTML结构。
+CSS初始化，然后开始运用盒子模型的原理，通过DIV+CSS布局来控制网页的各个模块。-->
