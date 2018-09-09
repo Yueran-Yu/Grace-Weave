@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复习5权重计算.html</title>
+    <style>
+        p{ /*0001*/
+            color: red;
+        }
+        div p{  /*0001+0001 = 0002*/
+            color: green;
+        }
+
+        .weight1{ /*0010*/
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div >
+    <p class="weight1">测试专用</p>
+</div>
+
+
+</body>
+</html>
+<!--
+1. 权重相同 则就近原则
+2. 权重会叠加
+
+
+比如例子：
+div ul li   - - - ->  0,0,0,3
+.nav ul li  - - - ->  0,0,1,2
+a:hover     - - - ->  0,0,1,1
+.nav a      - - - ->  0,0,1,1
+#nav p      - - - ->  0,1,0,1
+
+-->

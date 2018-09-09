@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS优先级.html</title>
+    <link href="CSS优先级.css" rel="stylesheet">
+    <style>
+
+        /*（优先 依次下降）
+          内联样式 a，span  （最高级）
+          嵌入样式
+          外部引入样式 link
+          继承样式
+          默认样式  （最低级）*/
+
+        body{
+            color: magenta;
+        }
+
+        p{
+            color: green;
+            font-size: 50px;
+        }
+
+        #atc{
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<p id="atc" style="color: blue;">
+    我是段落
+</p>
+</body>
+</html>

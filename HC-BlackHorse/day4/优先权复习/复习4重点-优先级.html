@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复习4重点-优先级.html</title>
+    <style>
+        body{
+            font-size: 50px;
+        }
+        .yanse{  /*class 选择器优先级 比 tag 选择器优先级更高*/
+            color: green;
+        }
+        div{
+            color: red;
+        }
+        div.yanse{
+            color: blueviolet;
+        }
+        #yan{
+            color: blue;
+        }
+
+        div{
+            color: brown;!important;
+        }
+    </style>
+</head>
+<body>
+<div class="yanse" id="yan" style="color: #ff8c93">颜色</div>
+</body>
+</html>
+<!--
+
+!important      权重  无穷大
+inline-style    权重  1,0,0,0
+id              权重  0,1,0,0
+a:hover(tag+伪类)权重  0,0,1,1
+class           权重  0,0,1,0
+tag             权重  0,0,0,1
+*或继承          权重  0,0,0,0 基本没有权重
+
+
+-->

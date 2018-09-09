@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>复习6继承的权重为0.html</title>
+    <style>
+        .father{ /* 0010*/
+            color: green; !important;
+        }
+
+        /*中间传递过度的权重 为 0000*/
+
+        p{ /*0001*/
+            color: red;
+        }
+
+        /*只要子元素里面定义了自己的 颜色等各种属性
+        父级元素的 属性 就不会被继承，会被子元素挡在门外，因为子元素已经有自己的专属 属性了*/
+        /*即便是加了 !important; 也没啥用*/
+
+    </style>
+</head>
+<body>
+<div class="father">
+    <p>继承的问题</p>
+</div>
+</body>
+</html>
