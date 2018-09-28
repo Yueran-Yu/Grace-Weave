@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\bin\Debug\FieldSample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\bin\Debug\FieldSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\bin\Debug\FieldSample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\obj\Debug\FieldSample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\obj\Debug\FieldSample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\obj\Debug\FieldSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\FieldSample\obj\Debug\FieldSample.pdb

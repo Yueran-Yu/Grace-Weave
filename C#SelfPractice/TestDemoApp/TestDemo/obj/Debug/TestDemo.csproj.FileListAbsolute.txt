@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\bin\Debug\TestDemo.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\bin\Debug\TestDemo.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\bin\Debug\TestDemo.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\obj\Debug\TestDemo.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\obj\Debug\TestDemo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\obj\Debug\TestDemo.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\TestDemo\obj\Debug\TestDemo.pdb

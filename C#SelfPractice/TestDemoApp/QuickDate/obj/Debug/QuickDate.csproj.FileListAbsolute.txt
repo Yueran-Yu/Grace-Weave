@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\obj\Debug\QuickDate.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\obj\Debug\QuickDate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\bin\Debug\QuickDate.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\bin\Debug\QuickDate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\bin\Debug\QuickDate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\obj\Debug\QuickDate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\QuickDate\obj\Debug\QuickDate.pdb

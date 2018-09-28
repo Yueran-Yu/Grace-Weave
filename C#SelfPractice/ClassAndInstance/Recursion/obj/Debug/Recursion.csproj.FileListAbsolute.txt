@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\bin\Debug\Recursion.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\bin\Debug\Recursion.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\bin\Debug\Recursion.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\obj\Debug\Recursion.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\obj\Debug\Recursion.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\obj\Debug\Recursion.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Recursion\obj\Debug\Recursion.csprojAssemblyReference.cache

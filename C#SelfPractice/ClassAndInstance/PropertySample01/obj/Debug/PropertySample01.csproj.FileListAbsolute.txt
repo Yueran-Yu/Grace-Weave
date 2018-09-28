@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\bin\Debug\PropertySample01.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\bin\Debug\PropertySample01.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\bin\Debug\PropertySample01.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\obj\Debug\PropertySample01.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\obj\Debug\PropertySample01.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\obj\Debug\PropertySample01.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\PropertySample01\obj\Debug\PropertySample01.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\bin\Debug\ContinueAndBreak.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\bin\Debug\ContinueAndBreak.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\bin\Debug\ContinueAndBreak.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\obj\Debug\ContinueAndBreak.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\obj\Debug\ContinueAndBreak.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\obj\Debug\ContinueAndBreak.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ContinueAndBreak\obj\Debug\ContinueAndBreak.pdb
