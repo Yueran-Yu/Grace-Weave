@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\Bank\Bank\bin\Debug\Bank.dll
+C:\Users\Administrator\Desktop\C#SelfPractice\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\Bank\Bank\obj\Debug\Bank.dll
+C:\Users\Administrator\Desktop\C#SelfPractice\Bank\Bank\obj\Debug\Bank.pdb

@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\bin\Debug\CouplingExample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\bin\Debug\CouplingExample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\bin\Debug\CouplingExample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\obj\Debug\CouplingExample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\obj\Debug\CouplingExample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\obj\Debug\CouplingExample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CouplingExample\obj\Debug\CouplingExample.pdb
