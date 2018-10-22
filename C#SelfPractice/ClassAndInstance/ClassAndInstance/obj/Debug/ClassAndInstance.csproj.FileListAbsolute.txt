@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\bin\Debug\ClassAndInstance.exe.config
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\bin\Debug\ClassAndInstance.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\bin\Debug\ClassAndInstance.pdb
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\obj\Debug\ClassAndInstance.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\obj\Debug\ClassAndInstance.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\obj\Debug\ClassAndInstance.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\ClassAndInstance\obj\Debug\ClassAndInstance.pdb

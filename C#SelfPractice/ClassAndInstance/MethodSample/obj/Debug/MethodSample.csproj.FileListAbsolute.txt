@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\bin\Debug\MethodSample.exe.config
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\bin\Debug\MethodSample.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\bin\Debug\MethodSample.pdb
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\obj\Debug\MethodSample.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\obj\Debug\MethodSample.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\obj\Debug\MethodSample.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\MethodSample\obj\Debug\MethodSample.pdb

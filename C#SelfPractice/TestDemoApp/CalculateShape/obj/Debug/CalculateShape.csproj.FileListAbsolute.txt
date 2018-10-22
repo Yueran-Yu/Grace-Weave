@@ -1,6 +1,0 @@
-C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\CalculateShape\bin\Debug\CalculateShape.exe.config
-C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\CalculateShape\bin\Debug\CalculateShape.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\CalculateShape\bin\Debug\CalculateShape.pdb
-C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\CalculateShape\obj\Debug\CalculateShape.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\CalculateShape\obj\Debug\CalculateShape.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\CalculateShape\obj\Debug\CalculateShape.pdb

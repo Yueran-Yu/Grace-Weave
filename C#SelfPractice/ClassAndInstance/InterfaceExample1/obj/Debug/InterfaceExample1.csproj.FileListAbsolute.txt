@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\obj\Debug\InterfaceExample1.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\obj\Debug\InterfaceExample1.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\bin\Debug\InterfaceExample1.exe.config
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\bin\Debug\InterfaceExample1.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\bin\Debug\InterfaceExample1.pdb
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\obj\Debug\InterfaceExample1.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\InterfaceExample1\obj\Debug\InterfaceExample1.pdb

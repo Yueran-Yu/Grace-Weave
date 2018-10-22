@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\bin\Debug\StaticSample.exe.config
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\bin\Debug\StaticSample.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\bin\Debug\StaticSample.pdb
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\obj\Debug\StaticSample.csprojAssemblyReference.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\obj\Debug\StaticSample.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\obj\Debug\StaticSample.exe
-C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\StaticSample\obj\Debug\StaticSample.pdb
