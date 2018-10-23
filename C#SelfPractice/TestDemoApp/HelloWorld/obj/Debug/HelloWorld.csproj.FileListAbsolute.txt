@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\bin\Debug\HelloWorld.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\bin\Debug\SuperCalculator.dll
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\bin\Debug\SuperCalculator.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\obj\Debug\HelloWorld.csproj.CopyComplete
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\HelloWorld\obj\Debug\HelloWorld.pdb

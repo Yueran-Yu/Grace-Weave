@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\bin\Debug\AsynchronousCall2.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\bin\Debug\AsynchronousCall2.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\bin\Debug\AsynchronousCall2.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\obj\Debug\AsynchronousCall2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\obj\Debug\AsynchronousCall2.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\obj\Debug\AsynchronousCall2.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall2\obj\Debug\AsynchronousCall2.csprojAssemblyReference.cache

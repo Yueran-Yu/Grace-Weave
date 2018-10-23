@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\bin\Debug\Foreach.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\bin\Debug\Foreach.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\bin\Debug\Foreach.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\obj\Debug\Foreach.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\obj\Debug\Foreach.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\obj\Debug\Foreach.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\Foreach\obj\Debug\Foreach.pdb

@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\bin\Debug\SelfDefineDelegate.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\bin\Debug\SelfDefineDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\bin\Debug\SelfDefineDelegate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\obj\Debug\SelfDefineDelegate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\obj\Debug\SelfDefineDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\obj\Debug\SelfDefineDelegate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\SelfDefineDelegate\obj\Debug\SelfDefineDelegate.csprojAssemblyReference.cache

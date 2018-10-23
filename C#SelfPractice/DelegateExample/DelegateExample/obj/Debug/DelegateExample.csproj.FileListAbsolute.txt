@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\bin\Debug\DelegateExample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\bin\Debug\DelegateExample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\bin\Debug\DelegateExample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\obj\Debug\DelegateExample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\obj\Debug\DelegateExample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\obj\Debug\DelegateExample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\DelegateExample\obj\Debug\DelegateExample.pdb

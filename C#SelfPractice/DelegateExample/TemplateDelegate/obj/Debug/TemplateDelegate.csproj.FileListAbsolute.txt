@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\bin\Debug\TemplateDelegate.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\bin\Debug\TemplateDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\bin\Debug\TemplateDelegate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\obj\Debug\TemplateDelegate.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\obj\Debug\TemplateDelegate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\obj\Debug\TemplateDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\TemplateDelegate\obj\Debug\TemplateDelegate.pdb

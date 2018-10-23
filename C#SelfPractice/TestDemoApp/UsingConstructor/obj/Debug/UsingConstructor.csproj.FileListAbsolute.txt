@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\bin\Debug\UsingConstructor.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\bin\Debug\UsingConstructor.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\bin\Debug\UsingConstructor.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\obj\Debug\UsingConstructor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\obj\Debug\UsingConstructor.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\obj\Debug\UsingConstructor.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\UsingConstructor\obj\Debug\UsingConstructor.csprojAssemblyReference.cache

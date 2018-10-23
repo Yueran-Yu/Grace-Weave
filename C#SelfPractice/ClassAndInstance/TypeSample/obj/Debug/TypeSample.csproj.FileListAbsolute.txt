@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\obj\Debug\TypeSample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\obj\Debug\TypeSample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\bin\Debug\TypeSample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\bin\Debug\TypeSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\bin\Debug\TypeSample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\obj\Debug\TypeSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\TypeSample\obj\Debug\TypeSample.pdb

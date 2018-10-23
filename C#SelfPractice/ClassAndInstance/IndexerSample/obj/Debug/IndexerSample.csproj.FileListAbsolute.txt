@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\bin\Debug\IndexerSample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\bin\Debug\IndexerSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\bin\Debug\IndexerSample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\obj\Debug\IndexerSample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\obj\Debug\IndexerSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\obj\Debug\IndexerSample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\IndexerSample\obj\Debug\IndexerSample.csprojAssemblyReference.cache

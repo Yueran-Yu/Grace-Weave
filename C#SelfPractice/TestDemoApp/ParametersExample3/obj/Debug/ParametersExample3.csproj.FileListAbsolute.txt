@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\bin\Debug\ParametersExample3.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\bin\Debug\ParametersExample3.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\bin\Debug\ParametersExample3.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\obj\Debug\ParametersExample3.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\obj\Debug\ParametersExample3.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\obj\Debug\ParametersExample3.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample3\obj\Debug\ParametersExample3.csprojAssemblyReference.cache

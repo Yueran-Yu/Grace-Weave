@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\bin\Debug\FormApp.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\bin\Debug\FormApp.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\bin\Debug\FormApp.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.MyForm.resources
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.Properties.Resources.resources
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\FormApp\FormApp\obj\Debug\FormApp.pdb

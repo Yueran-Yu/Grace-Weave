@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\bin\Debug\StaticConstructor.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\bin\Debug\StaticConstructor.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\bin\Debug\StaticConstructor.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\obj\Debug\StaticConstructor.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\obj\Debug\StaticConstructor.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\obj\Debug\StaticConstructor.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\StaticConstructor\obj\Debug\StaticConstructor.pdb

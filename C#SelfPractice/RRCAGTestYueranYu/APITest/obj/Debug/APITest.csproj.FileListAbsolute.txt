@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\APITest.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\APITest.pdb
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\RRCAGAPI.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\RRCAGAPI.pdb
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\bin\Debug\RRCAGAPI.dll.config
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\obj\Debug\APITest.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\obj\Debug\APITest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\obj\Debug\APITest.csproj.CopyComplete
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\obj\Debug\APITest.dll
+C:\Users\Administrator\Desktop\C#ProgrammingAssignments\RRCAGTestYueranYu\APITest\obj\Debug\APITest.pdb

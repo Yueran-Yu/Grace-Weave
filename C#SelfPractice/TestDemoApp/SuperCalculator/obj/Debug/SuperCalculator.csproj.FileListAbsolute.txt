@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\SuperCalculator\bin\Debug\SuperCalculator.dll
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\SuperCalculator\bin\Debug\SuperCalculator.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\SuperCalculator\obj\Debug\SuperCalculator.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\SuperCalculator\obj\Debug\SuperCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\SuperCalculator\obj\Debug\SuperCalculator.dll
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\SuperCalculator\obj\Debug\SuperCalculator.pdb

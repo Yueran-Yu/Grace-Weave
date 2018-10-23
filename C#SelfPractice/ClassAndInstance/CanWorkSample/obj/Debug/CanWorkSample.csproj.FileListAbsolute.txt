@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\bin\Debug\CanWorkSample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\bin\Debug\CanWorkSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\bin\Debug\CanWorkSample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\obj\Debug\CanWorkSample.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\obj\Debug\CanWorkSample.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\obj\Debug\CanWorkSample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\ClassAndInstance\CanWorkSample\obj\Debug\CanWorkSample.pdb

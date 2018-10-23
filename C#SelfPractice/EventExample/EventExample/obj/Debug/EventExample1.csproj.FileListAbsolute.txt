@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\bin\Debug\EventExample.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\bin\Debug\EventExample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\bin\Debug\EventExample.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\obj\Debug\EventExample1.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\obj\Debug\EventExample1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\obj\Debug\EventExample.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\EventExample\EventExample\obj\Debug\EventExample.pdb

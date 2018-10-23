@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\bin\Debug\MulticastDelegate.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\bin\Debug\MulticastDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\bin\Debug\MulticastDelegate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\obj\Debug\MulticastDelegate1.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\obj\Debug\MulticastDelegate1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\obj\Debug\MulticastDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\MulticastDelegate\obj\Debug\MulticastDelegate.pdb

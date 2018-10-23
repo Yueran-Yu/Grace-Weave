@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\bin\Debug\ParametersExample6.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\bin\Debug\ParametersExample6.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\bin\Debug\ParametersExample6.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\obj\Debug\ParametersExample6.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\obj\Debug\ParametersExample6.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\obj\Debug\ParametersExample6.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\TestDemoApp\ParametersExample6\obj\Debug\ParametersExample6.pdb

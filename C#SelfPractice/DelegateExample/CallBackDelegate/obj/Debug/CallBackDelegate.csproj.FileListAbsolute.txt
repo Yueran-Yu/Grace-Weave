@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\bin\Debug\CallBackDelegate.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\bin\Debug\CallBackDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\bin\Debug\CallBackDelegate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\obj\Debug\CallBackDelegate.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\obj\Debug\CallBackDelegate.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\obj\Debug\CallBackDelegate.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\CallBackDelegate\obj\Debug\CallBackDelegate.csprojAssemblyReference.cache

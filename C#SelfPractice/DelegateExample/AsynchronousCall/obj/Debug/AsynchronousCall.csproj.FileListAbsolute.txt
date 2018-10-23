@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall\bin\Debug\AsynchronousCall.exe.config
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall\bin\Debug\AsynchronousCall.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall\bin\Debug\AsynchronousCall.pdb
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall\obj\Debug\AsynchronousCall.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall\obj\Debug\AsynchronousCall.exe
+C:\Users\Administrator\Desktop\C#SelfPractice\DelegateExample\AsynchronousCall\obj\Debug\AsynchronousCall.pdb
