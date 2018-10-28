@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VariableAndString</title>
+<style>
+    #div1{
+        width:200px;
+        height: 200px;
+        border:1px solid black;
+    }
+    .box{
+        background:red;
+    }
+</style>
+    <!--1. style 加样式  加在 行间 -->
+    <!--2. style 取样式  也是从行间 取-->
+</head>
+<body>
+<input type="button" value="TurnToRed" onclick="toRed()">
+<input type="button" value="TurnToGreen" onclick="toGreen()">
+<!--
+先点击 TurnToGreen 会产生行间 样式 style.background
+所以 之后再点击 toRed() 修改，修改的hi 样式表 里的 class = "box";的颜色
+而class的优先级没有  行间样式 高
+-->
+<div id="div1" style="background: red;"></div>
+
+
+<script src="VariableAndString.js"></script>
+</body>
+</html>
+
+<!--
+字符串 不带引号的话会被当做变量处理  如alert(abc);
+-->
+<!--
+样式优先级：
+ * < 标签 < class < ID < 行间
+ -->
