@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564ee435-6d44-4ecb-b76d-ada7889a2ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UseJson/UseJson.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseJson/UseJson.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/使用Switch/UseSwitch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/使用Switch/UseSwitch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/秒转时间/SecondsChangeToTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/秒转时间/SecondsChangeToTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不定参-数组求和/arguements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/不定参-数组求和/arguements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/取非行间样式/获取非行间样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/取非行间样式/获取非行间样式.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组获取行间样式/ArrayGetStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数组获取行间样式/ArrayGetStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,36 +24,37 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="25" />
-          <entry key="js" value="22" />
+          <entry key="css" value="6" />
+          <entry key="html" value="31" />
+          <entry key="js" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="25" />
-          <entry key="JavaScript" value="22" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="31" />
+          <entry key="JavaScript" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="113" />
-          <entry key="html" value="2261" />
-          <entry key="js" value="3479" />
+          <entry key="html" value="2374" />
+          <entry key="js" value="4767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="113" />
-          <entry key="HTML" value="2261" />
-          <entry key="JavaScript" value="3479" />
+          <entry key="HTML" value="2374" />
+          <entry key="JavaScript" value="4767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
@@ -62,20 +65,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UseJson/UseJson.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UseJson/UseJson.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -86,8 +89,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -97,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Button.js" />
         <option value="$PROJECT_DIR$/按钮/Button.css" />
         <option value="$PROJECT_DIR$/按钮/Button.html" />
         <option value="$PROJECT_DIR$/按钮/Button.js" />
@@ -140,6 +142,15 @@
         <option value="$PROJECT_DIR$/使用Switch/UseSwitch.js" />
         <option value="$PROJECT_DIR$/UseJson/UseJson.js" />
         <option value="$PROJECT_DIR$/UseJson/UseJson.html" />
+        <option value="$PROJECT_DIR$/数组获取行间样式/ArrayGetStyle.html" />
+        <option value="$PROJECT_DIR$/不定参-数组求和/arguements.html" />
+        <option value="$PROJECT_DIR$/不定参-数组求和/arguements.js" />
+        <option value="$PROJECT_DIR$/数组获取行间样式/ArrayGetStyle.js" />
+        <option value="$PROJECT_DIR$/取非行间样式/获取非行间样式.css" />
+        <option value="$PROJECT_DIR$/取非行间样式/获取非行间样式.html" />
+        <option value="$PROJECT_DIR$/取非行间样式/获取非行间样式.js" />
+        <option value="$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.html" />
+        <option value="$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.js" />
       </list>
     </option>
   </component>
@@ -150,9 +161,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
-    <option name="y" value="23" />
-    <option name="width" value="591" />
+    <option name="x" value="-1070" />
+    <option name="y" value="304" />
+    <option name="width" value="1009" />
     <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -163,7 +174,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,20 +185,21 @@
             <path>
               <item name="JS_Practice_zhinengshe" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS_Practice_zhinengshe" type="462c0819:PsiDirectoryNode" />
-              <item name="UseJson" type="462c0819:PsiDirectoryNode" />
+              <item name="数组的添加和删除" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541090907575" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541304338824" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -212,6 +223,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ArrayGetStyle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ArrayGetStyle.js" working-dir="$PROJECT_DIR$/数组获取行间样式">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ArrayGetStyle.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -224,17 +245,17 @@
       <updated>1540660315379</updated>
       <workItem from="1540660316858" duration="17405000" />
       <workItem from="1541038329190" duration="4293000" />
+      <workItem from="1541291684007" duration="6920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21698000" />
+    <option name="totallyTimeSpent" value="28618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="23" width="591" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1070" y="304" width="1009" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23315118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1623578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -522,9 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/使用Switch/UseSwitch.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/使用Switch/UseSwitch.css" />
     <entry file="file://$PROJECT_DIR$/秒转时间/SecondsChangeToTime.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -574,6 +593,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UseJson/UseJson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UseJson/UseJson.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -581,10 +607,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UseJson/UseJson.js">
+    <entry file="file://$PROJECT_DIR$/不定参-数组求和/arguements.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/不定参-数组求和/arguements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组获取行间样式/ArrayGetStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/取非行间样式/获取非行间样式.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组获取行间样式/ArrayGetStyle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/取非行间样式/获取非行间样式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/取非行间样式/获取非行间样式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组的添加和删除/数组的添加和删除.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
