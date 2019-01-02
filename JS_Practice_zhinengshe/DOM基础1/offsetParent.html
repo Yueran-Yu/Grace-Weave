@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>offsetParent.html</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background-color: #ccc;
+            position: relative;
+            margin: 100px;
+        }
+        #div2{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            left:50px;
+            top:50px;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+          var oDiv2 = document.getElementById('div2');
+         // offsetParent 就是用来获取一个元素用来定位的父级
+         // offsetParent 获取元素在页面上实际的位置
+         // 而parentNode 在结构不变的情况下，父节点永远不变
+          alert(oDiv2.offsetParent);
+        };
+    </script>
+</head>
+<body>
+<div id="div1">
+    <div id="div2">
+
+    </div>
+</div>
+</body>
+</html> 

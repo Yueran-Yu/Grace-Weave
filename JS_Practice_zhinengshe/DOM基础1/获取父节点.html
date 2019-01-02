@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取父节点.html</title>
+    <script>
+        window.onload = function ()
+        {
+            var aA = document.getElementsByTagName('a');
+
+            for(var i = 0; i< aA.length; i++)
+            {
+                aA[i].onclick=function () {
+                    //隐藏父节点
+                    this.parentNode.style.display = 'none';
+                };
+            }
+        };
+    </script>
+</head>
+<body>
+<ul id="ul1">
+    <li>jfajepqe<a href="javascript:;">隐藏</a></li>
+    <li>jfajepqe<a href="javascript:;">隐藏</a></li>
+    <li>jfajepqe<a href="javascript:;">隐藏</a></li>
+    <li>jfajepqe<a href="javascript:;">隐藏</a></li>
+</ul>
+</body>
+</html>

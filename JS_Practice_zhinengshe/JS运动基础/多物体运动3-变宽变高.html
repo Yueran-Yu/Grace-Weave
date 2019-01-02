@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多物体运动3-变宽变高.html</title>
+    <style>
+
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            float:left;
+            border: 2px solid blue;
+            background: #b0ff89;
+            font-size: 13px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var aDiv = document.getElementById('div1');
+
+
+               aDiv.onmouseover = function ()
+                {
+                    startMove(this,'height',400);
+                };
+                aDiv.onmouseout = function ()
+                {
+                    startMove(this,'height',200);
+                };
+
+
+            var Div2 = document.getElementById('div2');
+                Div2.onmouseover = function ()
+                {
+                    startMove(this,'width',400);
+                };
+                Div2.onmouseout = function ()
+                {
+                    startMove(this,'width',200);
+                };
+
+                var Div3 = document.getElementById('div3');
+                Div3.onmouseover = function ()
+                {
+                    startMove(this,'font-size',45);
+                };
+                Div3.onmouseout = function ()
+                {
+                    startMove(this,'font-size',13);
+                };
+
+                var Div4 = document.getElementById('div4');
+                Div4.onmouseover = function ()
+                {
+                    startMove(this,'border-width',100);
+                };
+                Div4.onmouseout = function ()
+                {
+                    startMove(this,'border-width',10);
+                };
+
+        };
+
+
+        // getSytle 能帮助我们获取 不在行间的样式
+        function getStyle(obj,name)
+        {
+            if(obj.currentStyle)
+            {
+                return obj.currentStyle[name];
+            }
+            else {
+                return getComputedStyle(obj, false)[name];
+            }
+        }
+
+
+
+        //var alpha = 30;
+
+        function startMove(obj,attr,iTarget)
+        {
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function () {
+                var cur =  parseInt(getStyle(obj, attr));
+
+                var speed = (iTarget - cur)/6;
+                speed = speed > 0?Math.ceil(speed):Math.floor(speed);
+
+                if(cur==iTarget)
+                {
+                    clearInterval(obj.timer);
+                }else
+                {
+                   obj.style[attr] = cur + speed + 'px';
+                }
+
+            },30);
+        }
+    </script>
+</head>
+<body>
+<div id="div1">变高</div>
+<div id="div2">变宽</div>
+<div id="div3">哈哈哈哈哈哈</div>
+<div id="div4">efer</div>
+</body>
+</html>

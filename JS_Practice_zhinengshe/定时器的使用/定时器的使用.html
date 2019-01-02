@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时器的使用.html</title>
+    <style>
+
+        #div1{
+            width: 200px;
+            height: 200px;
+            background: #77d8ff;
+            position:absolute;
+            left:0px;
+            top:50px;
+        }
+    </style>
+    <script>
+        setInterval(function () {
+            var oDiv = document.getElementById('div1');
+            oDiv.style.left = oDiv.offsetLeft + 10 + 'px';
+        },30);
+    </script>
+</head>
+<body>
+<div id="div1"></div>
+
+</body>
+</html>

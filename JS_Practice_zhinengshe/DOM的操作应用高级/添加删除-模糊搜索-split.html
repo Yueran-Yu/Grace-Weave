@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格的添加删除.html</title>
+
+    <script>
+        window.onload = function () {
+          var oTab = document.getElementById('tab1');
+          var oBtn = document.getElementById('btn1');
+          var oName = document.getElementById('name');
+          var oAge = document.getElementById('age');
+          var oBtn2 = document.getElementById('btn2');
+           var id = oTab.tBodies[0].rows.length+1;
+
+          oBtn.onclick = function () {
+             var oTr = document.createElement('tr');
+             oTab.tBodies[0].appendChild(oTr);
+
+             var oTd1 = document.createElement('td');
+             oTd1.innerHTML = id++;
+
+              var oTd2 = document.createElement('td');
+              oTd2.innerHTML = oName.value;
+
+              var oTd3 = document.createElement('td');
+              oTd3.innerHTML = oAge.value;
+
+               var oTd4 = document.createElement('td');
+               oTd4.innerHTML= '<a href="javascript:;" >delete</a>';
+
+              oTr.appendChild(oTd1);
+              oTr.appendChild(oTd2);
+              oTr.appendChild(oTd3);
+              oTr.appendChild(oTd4);
+
+              oTd4.getElementsByTagName('a')[0].onclick = function ()
+              {
+                  oTab.tBodies[0].removeChild(this.parentNode.parentNode);
+              };
+          };
+
+          oBtn2.onclick = function ()
+          {
+              for(var i = 0; i <oTab.tBodies[0].rows.length; i++)
+              {
+                  //模糊搜索
+                  var sTab = oTab.tBodies[0].rows[i].cells[1].innerHTML.toLowerCase();
+                  var sTxt = oName.value.toLowerCase();
+                  var arr = sTxt.split(' ');
+
+                  oTab.tBodies[0].rows[i].style.background = '';
+                  for(var j = 0; j <arr.length; j++)
+                  {
+
+                      //将搜索关键字 切成 n段，将每一段都用循环来找一遍，是否匹配目标单元格里面的内容
+                      if(sTab.search(arr[j]) != -1)
+                      {
+                          oTab.tBodies[0].rows[i].style.background = 'yellow';
+                      }
+                  }
+              }
+          };
+        };
+    </script>
+</head>
+<body>
+姓名： <input id="name" type="text"/>
+年龄：<input id="age" type="text"/>
+<input id="btn1" type="button" value="Add"/>
+<input id="btn2" type="button" value="search" />
+
+
+<table id="tab1" border="5px" width="500px">
+    <thead>
+    <td>ID</td>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Action</td>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>One</td>
+        <td>23</td>
+        <td><a href="javascript:;" >delete</a></td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Two</td>
+        <td>24</td>
+        <td><a href="javascript:;" >delete</a></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Three</td>
+        <td>25</td>
+        <td><a href="javascript:;" >delete</a></td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Four</td>
+        <td>26</td>
+        <td><a href="javascript:;" >delete</a></td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>headwo</td>
+        <td>26</td>
+        <td><a href="javascript:;" >delete</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

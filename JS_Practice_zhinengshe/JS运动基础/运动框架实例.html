@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运动框架实例.html</title>
+    <style>
+        #div1{
+            width: 200px;
+            height: 200px;
+            background: #84ffb3;
+            position: absolute;
+            top:50px;
+            left:-200px;
+        }
+
+        #div1 span{
+            width: 20px;
+            height: 60px;
+            position: absolute;
+            line-height: 20px;
+            background: #a5e2ff;
+            right: -20px;
+            top:70px;
+
+        }
+    </style>
+    <script>
+        window.onload = function ()
+        {
+            var oDiv = document.getElementById('div1');
+
+            oDiv.onmouseover = function (){
+                startMove(0);
+            };
+            oDiv.onmouseout = function (){
+                startMove(-200);
+            };
+        };
+        var timer = null;
+
+        function startMove(iTarget)
+        {
+            var oDiv = document.getElementById('div1');
+
+            clearInterval(timer);
+
+            timer = setInterval(function ()
+            {
+                var speed = 0;
+                if(oDiv.offsetLeft > iTarget)
+                {
+                    speed = -20;
+                }else
+                    {
+                    speed = 20;
+                }
+
+                if(oDiv.offsetLeft == iTarget)
+                {
+                    clearInterval(timer);
+                }
+                else
+                {
+                    oDiv.style.left = oDiv.offsetLeft + speed + 'px';
+                }
+            },30);
+        }
+
+    </script>
+</head>
+<body>
+<div id="div1">
+    <span>分享到</span>
+</div>
+</body>
+</html>
